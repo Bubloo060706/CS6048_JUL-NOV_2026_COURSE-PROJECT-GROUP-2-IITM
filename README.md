@@ -1,8 +1,8 @@
 # Analysis and Lightweight Adaptation of WebRTC Video Conferencing Under Variable Cellular Network Conditions
 
 **CS6048: Advanced Computer Networks · Course Project · Group 2 | IIT Madras**  
-**Authors:** CS25S019 · CS26E009 (Rathan Balaji P R) · CS22B080  
-**Repository:** [https://github.com/Bubloo060706/CS6048_JUL-NOV_2026_COURSE-PROJECT-GROUP-2-IITM](https://github.com/Bubloo060706/CS6048_JUL-NOV_2026_COURSE-PROJECT-GROUP-2-IITM)
+**Authors:** CS25S019 · CS26E009 · CS22B080  
+
 
 ---
 
