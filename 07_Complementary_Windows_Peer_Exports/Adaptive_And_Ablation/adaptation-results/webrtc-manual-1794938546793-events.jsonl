@@ -1,0 +1,10 @@
+{"timestamp":"2026-11-17T18:02:22.394Z","monotonicMs":82417.09999999404,"event":"signaling_state_change","runId":"run-2026-11-17T18-01-00-109Z","endpointRole":"unassigned","state":"have-remote-offer"}
+{"timestamp":"2026-11-17T18:02:22.409Z","monotonicMs":82432.29999999702,"event":"signaling_state_change","runId":"run-2026-11-17T18-01-00-109Z","endpointRole":"unassigned","state":"stable"}
+{"timestamp":"2026-11-17T18:02:22.412Z","monotonicMs":82435.09999999404,"event":"ice_gathering_state_change","runId":"run-2026-11-17T18-01-00-109Z","endpointRole":"unassigned","state":"gathering"}
+{"timestamp":"2026-11-17T18:02:22.414Z","monotonicMs":82436.79999999702,"event":"ice_connection_state_change","runId":"run-2026-11-17T18-01-00-109Z","endpointRole":"unassigned","state":"checking"}
+{"timestamp":"2026-11-17T18:02:22.415Z","monotonicMs":82438.29999999702,"event":"connection_state_change","runId":"run-2026-11-17T18-01-00-109Z","endpointRole":"unassigned","state":"connecting"}
+{"timestamp":"2026-11-17T18:02:22.419Z","monotonicMs":82441.5,"event":"ice_connection_state_change","runId":"run-2026-11-17T18-01-00-109Z","endpointRole":"unassigned","state":"connected"}
+{"timestamp":"2026-11-17T18:02:22.419Z","monotonicMs":82441.70000000298,"event":"ice_gathering_state_change","runId":"run-2026-11-17T18-01-00-109Z","endpointRole":"unassigned","state":"complete"}
+{"timestamp":"2026-11-17T18:02:22.496Z","monotonicMs":82519.29999999702,"event":"connection_state_change","runId":"run-2026-11-17T18-01-00-109Z","endpointRole":"unassigned","state":"connected"}
+{"timestamp":"2026-11-17T18:02:26.793Z","monotonicMs":86816,"event":"measurement_started","runId":"manual-1794938546793","endpointRole":"manual","mode":"baseline","intervalMs":1000,"experimentId":"","pairId":"","scheduleId":""}
+{"timestamp":"2026-11-17T18:18:01.393Z","monotonicMs":1021415.700000003,"event":"measurement_stopped","runId":"manual-1794938546793","endpointRole":"manual","sampleCount":935,"rawStatsSnapshots":935}

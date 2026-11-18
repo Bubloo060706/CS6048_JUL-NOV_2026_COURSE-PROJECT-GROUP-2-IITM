@@ -1,0 +1,19 @@
+{
+  "study": "endpoint-side-webrtc-adaptation",
+  "duration_seconds": 105,
+  "sample_interval_ms": 1000,
+  "target_bitrate_kbps": 900,
+  "schedule": [
+    {"phase": "warmup", "duration_seconds": 15, "profile": "control"},
+    {"phase": "impairment", "duration_seconds": 60, "profile": "moderate"},
+    {"phase": "recovery", "duration_seconds": 30, "profile": "control"}
+  ],
+  "profiles": {
+    "control": {"rate": null, "delay_ms": 0, "jitter_ms": 0, "loss_percent": 0},
+    "moderate": {"rate": "2mbit", "delay_ms": 80, "jitter_ms": 20, "loss_percent": 1},
+    "severe": {"rate": "800kbit", "delay_ms": 150, "jitter_ms": 40, "loss_percent": 3}
+  },
+  "modes": ["baseline", "adaptive"],
+  "repetitions": 3,
+  "note": "Pilot template only. Randomized trial plan is generated separately; verify media path and choose profiles for the actual lab topology before running."
+}

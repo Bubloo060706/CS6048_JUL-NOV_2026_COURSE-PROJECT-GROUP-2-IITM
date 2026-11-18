@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "master_seed": 20261106,
+  "repetitions": 3,
+  "duration_seconds": 3600,
+  "paired_runs": 6,
+  "plan_csv": "experiments/baseline_06nov_3runs/paired-run-plan.csv",
+  "schedule_replay_required": true
+}

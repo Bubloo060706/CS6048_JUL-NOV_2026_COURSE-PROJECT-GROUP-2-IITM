@@ -1,0 +1,11 @@
+{
+  "trial": "FPS_OFF_W2",
+  "rttHighMs": 250,
+  "fpsTriggerEnabled": false,
+  "lossHighPct": 1.0,
+  "persistenceSamples": 3,
+  "reductionFactor": 0.92,
+  "recoveryStepFactor": 1.25,
+  "schedule": "experiments/controller_windows/schedules/W2_B1_schedule_12min.csv",
+  "scheduleDurationSeconds": 720
+}

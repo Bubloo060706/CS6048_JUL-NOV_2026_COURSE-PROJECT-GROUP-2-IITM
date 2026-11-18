@@ -1,0 +1,50 @@
+IFB Bidirectional Delay Validation
+Date: 04 November 2026
+Configured impairment: 80 ms delay + 20 ms jitter in both directions
+WebRTC ICE pair: 10.21.239.165:34866 <-> 10.42.82.153:49669
+Observed RTT: 165 ms
+Previous baseline RTT: 7 ms
+
+========== INGRESS FILTER ==========
+filter protocol ip pref 10 flower chain 0 
+filter protocol ip pref 10 flower chain 0 handle 0x1 
+  eth_type ipv4
+  ip_proto udp
+  dst_ip 10.21.239.165
+  src_ip 10.42.82.153
+  dst_port 34866
+  src_port 49669
+  not_in_hw
+	action order 1: mirred (Egress Redirect to device ifb-in) stolen
+	index 1 ref 1 bind 1 installed 180 sec firstused 180 sec
+	Action statistics:
+	Sent 121660479 bytes 125296 pkt (dropped 0, overlimits 0 requeues 0) 
+	backlog 0b 0p requeues 0
+
+
+========== EGRESS FILTER ==========
+filter protocol ip pref 10 flower chain 0 
+filter protocol ip pref 10 flower chain 0 handle 0x1 
+  eth_type ipv4
+  ip_proto udp
+  dst_ip 10.42.82.153
+  src_ip 10.21.239.165
+  dst_port 49669
+  src_port 34866
+  not_in_hw
+	action order 1: mirred (Egress Redirect to device ifb-out) stolen
+	index 2 ref 1 bind 1 installed 180 sec firstused 180 sec
+	Action statistics:
+	Sent 27628697 bytes 49023 pkt (dropped 0, overlimits 0 requeues 0) 
+	backlog 0b 0p requeues 0
+
+
+========== IFB-IN QDISC ==========
+qdisc netem 8001: root refcnt 2 limit 1000 delay 80ms  20ms
+ Sent 217945585 bytes 218914 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 54894b 55p requeues 0
+
+========== IFB-OUT QDISC ==========
+qdisc netem 8002: root refcnt 2 limit 1000 delay 80ms  20ms
+ Sent 29972377 bytes 70577 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 1565b 14p requeues 0

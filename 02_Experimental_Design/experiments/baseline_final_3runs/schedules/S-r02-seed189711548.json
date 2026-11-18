@@ -1,0 +1,538 @@
+{
+  "schema_version": 1,
+  "schedule_id": "S-r02-seed189711548",
+  "seed": 189711548,
+  "duration_seconds": 3600,
+  "sample_interval_ms": 1000,
+  "profiles": {
+    "control": {
+      "description": "No intentional delay, jitter, packet loss, or rate cap",
+      "rate": null,
+      "delay_ms": 0,
+      "jitter_ms": 0,
+      "delay_correlation_percent": 0,
+      "loss_percent": 0
+    },
+    "delay_jitter": {
+      "description": "Moderate delay and jitter only",
+      "rate": null,
+      "delay_ms": 80,
+      "jitter_ms": 20,
+      "delay_correlation_percent": 25,
+      "loss_percent": 0
+    },
+    "loss_only": {
+      "description": "Packet loss only",
+      "rate": null,
+      "delay_ms": 0,
+      "jitter_ms": 0,
+      "delay_correlation_percent": 0,
+      "loss_percent": 1
+    },
+    "moderate_combined": {
+      "description": "Rate cap, delay, jitter, and loss",
+      "rate": "2mbit",
+      "delay_ms": 80,
+      "jitter_ms": 20,
+      "delay_correlation_percent": 25,
+      "loss_percent": 1
+    },
+    "severe_combined": {
+      "description": "Stronger rate cap, delay, jitter, and loss",
+      "rate": "800kbit",
+      "delay_ms": 150,
+      "jitter_ms": 40,
+      "delay_correlation_percent": 25,
+      "loss_percent": 3
+    }
+  },
+  "schedule": [
+    {
+      "phase": "warmup",
+      "profile": "control",
+      "start_s": 0,
+      "duration_s": 30
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 30,
+      "duration_s": 56
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 86,
+      "duration_s": 20
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 106,
+      "duration_s": 29
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 135,
+      "duration_s": 66
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 201,
+      "duration_s": 54
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 255,
+      "duration_s": 44
+    },
+    {
+      "phase": "randomized",
+      "profile": "delay_jitter",
+      "start_s": 299,
+      "duration_s": 50
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 349,
+      "duration_s": 58
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 407,
+      "duration_s": 57
+    },
+    {
+      "phase": "randomized",
+      "profile": "loss_only",
+      "start_s": 464,
+      "duration_s": 55
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 519,
+      "duration_s": 30
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 549,
+      "duration_s": 49
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 598,
+      "duration_s": 28
+    },
+    {
+      "phase": "randomized",
+      "profile": "loss_only",
+      "start_s": 626,
+      "duration_s": 65
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 691,
+      "duration_s": 62
+    },
+    {
+      "phase": "randomized",
+      "profile": "delay_jitter",
+      "start_s": 753,
+      "duration_s": 38
+    },
+    {
+      "phase": "randomized",
+      "profile": "loss_only",
+      "start_s": 791,
+      "duration_s": 21
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 812,
+      "duration_s": 61
+    },
+    {
+      "phase": "randomized",
+      "profile": "delay_jitter",
+      "start_s": 873,
+      "duration_s": 40
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 913,
+      "duration_s": 62
+    },
+    {
+      "phase": "randomized",
+      "profile": "delay_jitter",
+      "start_s": 975,
+      "duration_s": 39
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 1014,
+      "duration_s": 24
+    },
+    {
+      "phase": "randomized",
+      "profile": "loss_only",
+      "start_s": 1038,
+      "duration_s": 61
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 1099,
+      "duration_s": 55
+    },
+    {
+      "phase": "randomized",
+      "profile": "delay_jitter",
+      "start_s": 1154,
+      "duration_s": 21
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 1175,
+      "duration_s": 36
+    },
+    {
+      "phase": "randomized",
+      "profile": "delay_jitter",
+      "start_s": 1211,
+      "duration_s": 35
+    },
+    {
+      "phase": "randomized",
+      "profile": "loss_only",
+      "start_s": 1246,
+      "duration_s": 57
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 1303,
+      "duration_s": 24
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 1327,
+      "duration_s": 42
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 1369,
+      "duration_s": 70
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 1439,
+      "duration_s": 48
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 1487,
+      "duration_s": 43
+    },
+    {
+      "phase": "randomized",
+      "profile": "loss_only",
+      "start_s": 1530,
+      "duration_s": 28
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 1558,
+      "duration_s": 49
+    },
+    {
+      "phase": "randomized",
+      "profile": "loss_only",
+      "start_s": 1607,
+      "duration_s": 60
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 1667,
+      "duration_s": 38
+    },
+    {
+      "phase": "randomized",
+      "profile": "loss_only",
+      "start_s": 1705,
+      "duration_s": 53
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 1758,
+      "duration_s": 35
+    },
+    {
+      "phase": "randomized",
+      "profile": "delay_jitter",
+      "start_s": 1793,
+      "duration_s": 55
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 1848,
+      "duration_s": 53
+    },
+    {
+      "phase": "randomized",
+      "profile": "delay_jitter",
+      "start_s": 1901,
+      "duration_s": 60
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 1961,
+      "duration_s": 49
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 2010,
+      "duration_s": 41
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 2051,
+      "duration_s": 49
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 2100,
+      "duration_s": 67
+    },
+    {
+      "phase": "randomized",
+      "profile": "loss_only",
+      "start_s": 2167,
+      "duration_s": 26
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 2193,
+      "duration_s": 49
+    },
+    {
+      "phase": "randomized",
+      "profile": "delay_jitter",
+      "start_s": 2242,
+      "duration_s": 40
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 2282,
+      "duration_s": 54
+    },
+    {
+      "phase": "randomized",
+      "profile": "delay_jitter",
+      "start_s": 2336,
+      "duration_s": 27
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 2363,
+      "duration_s": 53
+    },
+    {
+      "phase": "randomized",
+      "profile": "loss_only",
+      "start_s": 2416,
+      "duration_s": 40
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 2456,
+      "duration_s": 47
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 2503,
+      "duration_s": 21
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 2524,
+      "duration_s": 59
+    },
+    {
+      "phase": "randomized",
+      "profile": "delay_jitter",
+      "start_s": 2583,
+      "duration_s": 51
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 2634,
+      "duration_s": 46
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 2680,
+      "duration_s": 45
+    },
+    {
+      "phase": "randomized",
+      "profile": "delay_jitter",
+      "start_s": 2725,
+      "duration_s": 32
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 2757,
+      "duration_s": 36
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 2793,
+      "duration_s": 49
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 2842,
+      "duration_s": 26
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 2868,
+      "duration_s": 39
+    },
+    {
+      "phase": "randomized",
+      "profile": "delay_jitter",
+      "start_s": 2907,
+      "duration_s": 48
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 2955,
+      "duration_s": 57
+    },
+    {
+      "phase": "randomized",
+      "profile": "loss_only",
+      "start_s": 3012,
+      "duration_s": 29
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 3041,
+      "duration_s": 33
+    },
+    {
+      "phase": "randomized",
+      "profile": "delay_jitter",
+      "start_s": 3074,
+      "duration_s": 40
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 3114,
+      "duration_s": 43
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 3157,
+      "duration_s": 38
+    },
+    {
+      "phase": "randomized",
+      "profile": "delay_jitter",
+      "start_s": 3195,
+      "duration_s": 69
+    },
+    {
+      "phase": "randomized",
+      "profile": "loss_only",
+      "start_s": 3264,
+      "duration_s": 69
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 3333,
+      "duration_s": 21
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 3354,
+      "duration_s": 24
+    },
+    {
+      "phase": "randomized",
+      "profile": "severe_combined",
+      "start_s": 3378,
+      "duration_s": 64
+    },
+    {
+      "phase": "randomized",
+      "profile": "moderate_combined",
+      "start_s": 3442,
+      "duration_s": 52
+    },
+    {
+      "phase": "randomized",
+      "profile": "delay_jitter",
+      "start_s": 3494,
+      "duration_s": 54
+    },
+    {
+      "phase": "randomized",
+      "profile": "loss_only",
+      "start_s": 3548,
+      "duration_s": 22
+    },
+    {
+      "phase": "recovery",
+      "profile": "control",
+      "start_s": 3570,
+      "duration_s": 30
+    }
+  ],
+  "replay_rule": "Use this exact schedule file for both baseline and adaptive runs."
+}

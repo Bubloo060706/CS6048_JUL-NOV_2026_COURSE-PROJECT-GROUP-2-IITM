@@ -1,0 +1,1546 @@
+{
+  "source_archive": "project_bundle_full.zip",
+  "file_count": 249,
+  "excluded_source_paths": [
+    "certs/.gitkeep",
+    "public/app.js.backup_30oct",
+    "public/app.js.backup_20261106_012124",
+    "public/adaptation-controller.js.backup_W3_R2",
+    "scripts/__pycache__/run_randomized_baseline.cpython-312.pyc",
+    "experiments/controller_windows/results/wrong/network-events.jsonl",
+    "experiments/controller_windows/results/wrong/physical-interface-qdisc-after.txt",
+    "node_modules/.package-lock.json",
+    "node_modules/ws/browser.js",
+    "node_modules/ws/package.json",
+    "node_modules/ws/LICENSE",
+    "node_modules/ws/wrapper.mjs",
+    "node_modules/ws/index.js",
+    "node_modules/ws/README.md",
+    "node_modules/ws/lib/extension.js",
+    "node_modules/ws/lib/sender.js",
+    "node_modules/ws/lib/validation.js",
+    "node_modules/ws/lib/limiter.js",
+    "node_modules/ws/lib/constants.js",
+    "node_modules/ws/lib/permessage-deflate.js",
+    "node_modules/ws/lib/websocket.js",
+    "node_modules/ws/lib/websocket-server.js",
+    "node_modules/ws/lib/event-target.js",
+    "node_modules/ws/lib/stream.js",
+    "node_modules/ws/lib/receiver.js",
+    "node_modules/ws/lib/buffer-util.js",
+    "node_modules/ws/lib/subprotocol.js",
+    "tests/__pycache__/test_experiment_planning.cpython-312.pyc",
+    "adaptation results/W1/webrtc-W1-corrected-R1-raw-getstats.jsonl",
+    "adaptation results/W1/webrtc-W1-corrected-R1-browser-api.jsonl",
+    "adaptation results/W1/network-events.jsonl",
+    "adaptation results/W1/webrtc-W1-corrected-R1-adaptive-metrics.csv",
+    "adaptation results/W1/webrtc-W1-corrected-R1-complete-run.json",
+    "adaptation results/W1/physical-interface-qdisc-after.txt",
+    "adaptation results/W1.zip",
+    "adaptation results/W1-tune-1.zip",
+    "adaptation results/W1-tune-1/webrtc-W1_TUNED_092_145-raw-getstats.jsonl",
+    "adaptation results/W1-tune-1/webrtc-W1_TUNED_092_145-browser-api.jsonl",
+    "adaptation results/W1-tune-1/webrtc-W1_TUNED_092_145-adaptive-metrics.csv",
+    "adaptation results/W1-tune-1/webrtc-W1_TUNED_092_145-complete-run.json",
+    "adaptation results/W1-tune-1/network-events.jsonl",
+    "adaptation results/W1-tune-1/physical-interface-qdisc-after.txt",
+    "w3_controller_replay_old.py",
+    "run_w2_ablations_original.sh"
+  ],
+  "files": [
+    {
+      "path": "00_Project_Guide/verify-project.ps1",
+      "source": "project_bundle/verify-project.ps1",
+      "size_bytes": 1504,
+      "sha256": "8e95803efe7bf9b121a1ed067d1f653fe1b4b3cae0cee280c07bc8ad4cd83358"
+    },
+    {
+      "path": "01_Source_Code/package.json",
+      "source": "project_bundle/package.json",
+      "size_bytes": 438,
+      "sha256": "c30d24bddbeffc3d73f6ff0a1e0d336d5d5bc4bbcd443da618b12b61cf7c0376"
+    },
+    {
+      "path": "01_Source_Code/certs/lan-cert.pem",
+      "source": "project_bundle/certs/lan-cert.pem",
+      "size_bytes": 1480,
+      "sha256": "5a86e1217b28d7dc7c17a944c06b36b00a7efb11510fa17089c2bf5e2a8f6013"
+    },
+    {
+      "path": "01_Source_Code/certs/lan-key.pem",
+      "source": "project_bundle/certs/lan-key.pem",
+      "size_bytes": 1708,
+      "sha256": "e3bd2da3768d56e39ce864b8cf97ecd984c4d7c64decb07d04aeaf83b8bd3a83"
+    },
+    {
+      "path": "00_Project_Guide/REVIEW_NOTES.md",
+      "source": "project_bundle/REVIEW_NOTES.md",
+      "size_bytes": 5422,
+      "sha256": "3ee7683750f98cdf1a1d0821bd9fd2d31146d71baccfdde8e07dfd9e1c4f1f5e"
+    },
+    {
+      "path": "00_Project_Guide/CONTROLLER_IMPLEMENTATION_NOTES.md",
+      "source": "project_bundle/CONTROLLER_IMPLEMENTATION_NOTES.md",
+      "size_bytes": 986,
+      "sha256": "78d5d95be5dcdd235f27dc65826e1d3558215fb6bafee0d02d843ca8effead2d"
+    },
+    {
+      "path": "00_Project_Guide/TEST_REPORT_V2.md",
+      "source": "project_bundle/TEST_REPORT_V2.md",
+      "size_bytes": 1767,
+      "sha256": "1f02cbd5e87ceec748c6bc4b266e2a8421a0c82137a83c094029e715fe0e1d77"
+    },
+    {
+      "path": "01_Source_Code/package-lock.json",
+      "source": "project_bundle/package-lock.json",
+      "size_bytes": 879,
+      "sha256": "1809e3dc3df713f729e5f6997ad77ed5ae9c6e619deadc254cbf72bf84fefa95"
+    },
+    {
+      "path": "01_Source_Code/public/index.html",
+      "source": "project_bundle/public/index.html",
+      "size_bytes": 3155,
+      "sha256": "1f9711a57e2e96f049dd9484a5744068d98369deec6ec052203038ffb04227a8"
+    },
+    {
+      "path": "01_Source_Code/public/style.css",
+      "source": "project_bundle/public/style.css",
+      "size_bytes": 1588,
+      "sha256": "0bbd6a90896cfd193c06b9eb9c4bb6473e6cf8530cc788a66be599896e2c32b0"
+    },
+    {
+      "path": "01_Source_Code/public/app.js",
+      "source": "project_bundle/public/app.js",
+      "size_bytes": 36717,
+      "sha256": "e083ab3479b3af27d1e5d0353311fccc6c869bdbc31cd03d07ca07425c385111"
+    },
+    {
+      "path": "01_Source_Code/public/adaptation-controller.js",
+      "source": "project_bundle/public/adaptation-controller.js",
+      "size_bytes": 5637,
+      "sha256": "4d50b936a5ed6163c2ec2af2487c521cdabbb850f41cd94e8b7c619640c219f9"
+    },
+    {
+      "path": "01_Source_Code/server.js",
+      "source": "project_bundle/server.js",
+      "size_bytes": 6104,
+      "sha256": "5965882f70410fc73c8ad5fa8eaef47e66b113a69e4427dc86a1d688242efaf1"
+    },
+    {
+      "path": "02_Experimental_Design/scripts/netem_apply.sh",
+      "source": "project_bundle/scripts/netem_apply.sh",
+      "size_bytes": 1398,
+      "sha256": "6b15376dc1c05ee8c15d3784f8c1802699a3e97f3075a53efc1cefba20a4f8f3"
+    },
+    {
+      "path": "02_Experimental_Design/scripts/run_ifb_schedule.py",
+      "source": "project_bundle/scripts/run_ifb_schedule.py",
+      "size_bytes": 6772,
+      "sha256": "98982c8d936cfefba40494d3af46a92046137f7a607c2eaddd6495f0a0326206"
+    },
+    {
+      "path": "02_Experimental_Design/scripts/generate_trial_plan.py",
+      "source": "project_bundle/scripts/generate_trial_plan.py",
+      "size_bytes": 2720,
+      "sha256": "5e09cf2626c1c851628b94e36be141c4dbfd4c836f281d531e1c2380cab87e7a"
+    },
+    {
+      "path": "02_Experimental_Design/scripts/netem_clear.sh",
+      "source": "project_bundle/scripts/netem_clear.sh",
+      "size_bytes": 997,
+      "sha256": "e7227d9104525f4f5dd12ecd6c5c0f700aa1a273e980272430b0eca2063eeed8"
+    },
+    {
+      "path": "02_Experimental_Design/scripts/run_three_baselines.sh",
+      "source": "project_bundle/scripts/run_three_baselines.sh",
+      "size_bytes": 910,
+      "sha256": "e980b11b1d2a7acf19c40837ec204aef91ae4dc36cdb2209db9d18e6dbc4d3bf"
+    },
+    {
+      "path": "02_Experimental_Design/scripts/generate_paired_schedules.py",
+      "source": "project_bundle/scripts/generate_paired_schedules.py",
+      "size_bytes": 3733,
+      "sha256": "6d7c5b8f4df900a82419eaa443505b70a0924046c602189615e4252646a02a2f"
+    },
+    {
+      "path": "02_Experimental_Design/scripts/run_randomized_baseline.py",
+      "source": "project_bundle/scripts/run_randomized_baseline.py",
+      "size_bytes": 11033,
+      "sha256": "6307fb9e408f66a829984d6a955fa3170de758de64eff5df9a4d9d219e065a9d"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/baseline_final_3runs/plan-manifest.json",
+      "source": "project_bundle/experiments/baseline_final_3runs/plan-manifest.json",
+      "size_bytes": 227,
+      "sha256": "b1756d2ccbf0aedd702608314a59c54fbaa721578d1ceaee35c63b50887b2813"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/baseline_final_3runs/schedules/S-r03-seed504830888.csv",
+      "source": "project_bundle/experiments/baseline_final_3runs/schedules/S-r03-seed504830888.csv",
+      "size_bytes": 2710,
+      "sha256": "eab47cee35089a9a9aca809f02496097c8c31f0515d75d84922c477b0cb48374"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/baseline_final_3runs/schedules/S-r02-seed189711548.csv",
+      "source": "project_bundle/experiments/baseline_final_3runs/schedules/S-r02-seed189711548.csv",
+      "size_bytes": 2830,
+      "sha256": "d537f7daa35d60afa8248334d641f12d8148b7ba344150887bc63dcca684759a"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/baseline_final_3runs/schedules/S-r03-seed504830888.json",
+      "source": "project_bundle/experiments/baseline_final_3runs/schedules/S-r03-seed504830888.json",
+      "size_bytes": 10987,
+      "sha256": "4fc0cbc71a6db9bb0daa435254a5ec88245de7e3ed6d29cb4b49b3dab09e0af7"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/baseline_final_3runs/schedules/S-r02-seed189711548.json",
+      "source": "project_bundle/experiments/baseline_final_3runs/schedules/S-r02-seed189711548.json",
+      "size_bytes": 11283,
+      "sha256": "cfa2eff1be789e005fd13a07861b752d093ecba991dd47d1483571aaa94ca00e"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/baseline_final_3runs/schedules/S-r01-seed1393084745.json",
+      "source": "project_bundle/experiments/baseline_final_3runs/schedules/S-r01-seed1393084745.json",
+      "size_bytes": 11442,
+      "sha256": "53cf55bc1425f2efc6a2c7e2dcf903f5f0274124a6ecd126bda3c1052713be31"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/baseline_final_3runs/schedules/S-r01-seed1393084745.csv",
+      "source": "project_bundle/experiments/baseline_final_3runs/schedules/S-r01-seed1393084745.csv",
+      "size_bytes": 2811,
+      "sha256": "532f18126c907a516db97e1f0fa0ecb6e34d5a7e516ba7c7f5eaa51cf14ea6d8"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/baseline_final_3runs/executed_baselines/B2-network/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/experiments/baseline_final_3runs/executed_baselines/B2-network/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/baseline_final_3runs/executed_baselines/B2-network/network-events.jsonl",
+      "source": "project_bundle/experiments/baseline_final_3runs/executed_baselines/B2-network/network-events.jsonl",
+      "size_bytes": 40208,
+      "sha256": "fe5ca5881491ad8d4a5bc2dda5f31288b8523e503c15bca62be5046d5da45f20"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/baseline_final_3runs/executed_baselines/B3-network/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/experiments/baseline_final_3runs/executed_baselines/B3-network/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/baseline_final_3runs/executed_baselines/B3-network/network-events.jsonl",
+      "source": "project_bundle/experiments/baseline_final_3runs/executed_baselines/B3-network/network-events.jsonl",
+      "size_bytes": 39034,
+      "sha256": "7ff39e33b6d927a07f93fcc768bab8fe595d15b9b2bc367e2d266f27b40d995f"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/baseline_final_3runs/executed_baselines/B1-network/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/experiments/baseline_final_3runs/executed_baselines/B1-network/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/baseline_final_3runs/executed_baselines/B1-network/network-events.jsonl",
+      "source": "project_bundle/experiments/baseline_final_3runs/executed_baselines/B1-network/network-events.jsonl",
+      "size_bytes": 40707,
+      "sha256": "ed5feef6fdfd1752c051a2a1b272435987a8e0eb25e1a042879fa7bebda25631"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/baseline_final_3runs/paired-run-plan.csv",
+      "source": "project_bundle/experiments/baseline_final_3runs/paired-run-plan.csv",
+      "size_bytes": 1729,
+      "sha256": "7b70ee8cf48337968621cd8b4508a303e8f2d7f8ae2e157b2e27c48538b515fe"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/WebRTC_12min_schedules_v2/W3_B2_schedule_12min.csv",
+      "source": "project_bundle/experiments/WebRTC_12min_schedules_v2/W3_B2_schedule_12min.csv",
+      "size_bytes": 635,
+      "sha256": "e38ebb33ba6ce39e93fed815493fa2c17a3a170e5cd129150632381d5c39058e"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/WebRTC_12min_schedules_v2/WINDOW_MANIFEST.json",
+      "source": "project_bundle/experiments/WebRTC_12min_schedules_v2/WINDOW_MANIFEST.json",
+      "size_bytes": 851,
+      "sha256": "29b73b31942da5120ed5c3ac36238a874c2d48ccff68a3c608a9636e23fc6388"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/WebRTC_12min_schedules_v2/W1_B3_schedule_12min.csv",
+      "source": "project_bundle/experiments/WebRTC_12min_schedules_v2/W1_B3_schedule_12min.csv",
+      "size_bytes": 575,
+      "sha256": "2a1aa1bb14e415c4a4530b43a5b00718fd4138a3dcf471d55349ac7ada7fca93"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/WebRTC_12min_schedules_v2/W2_B1_schedule_12min.csv",
+      "source": "project_bundle/experiments/WebRTC_12min_schedules_v2/W2_B1_schedule_12min.csv",
+      "size_bytes": 568,
+      "sha256": "e55132d211a1c2811dc3209b592c208d63bab54dc697775dc86b7eb7101061fb"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/controller_windows/results/W1_adaptive_corrected/network-events.jsonl",
+      "source": "project_bundle/experiments/controller_windows/results/W1_adaptive_corrected/network-events.jsonl",
+      "size_bytes": 8828,
+      "sha256": "ce10036d5995a286540fa3b52a1c2cfc89b1e3810228f2b1b5be11eac5e7bac1"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/controller_windows/results/W1_adaptive_corrected/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/experiments/controller_windows/results/W1_adaptive_corrected/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/controller_windows/results/W1_TUNED_092_125/network-events.jsonl",
+      "source": "project_bundle/experiments/controller_windows/results/W1_TUNED_092_125/network-events.jsonl",
+      "size_bytes": 8829,
+      "sha256": "d2ee63b5983edf4e2087e6eb184d3ee986033ae06623126e40ff1e15ac97eedd"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/controller_windows/results/W1_TUNED_092_125/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/experiments/controller_windows/results/W1_TUNED_092_125/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/controller_windows/results/W1_TUNED_092_145/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/experiments/controller_windows/results/W1_TUNED_092_145/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/controller_windows/results/W1_TUNED_092_145/network-events.jsonl",
+      "source": "project_bundle/experiments/controller_windows/results/W1_TUNED_092_145/network-events.jsonl",
+      "size_bytes": 8829,
+      "sha256": "f14b178dd6d050523a5d51de0d9f6d9bc4e27fc17162917b6cf84f2f93e361d9"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/controller_windows/results/W2_B1_adaptive/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/experiments/controller_windows/results/W2_B1_adaptive/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/controller_windows/results/W2_B1_adaptive/network-events.jsonl",
+      "source": "project_bundle/experiments/controller_windows/results/W2_B1_adaptive/network-events.jsonl",
+      "size_bytes": 8788,
+      "sha256": "28a1ab833cd8b21f174c4cb319df873b52280391af695f12f191824dc199743e"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/controller_windows/results/W3_B2_adaptive/network-events.jsonl",
+      "source": "project_bundle/experiments/controller_windows/results/W3_B2_adaptive/network-events.jsonl",
+      "size_bytes": 9449,
+      "sha256": "345185e46b8ebafb407d6216a9bb8bc99be08b844ca6169330ef376d0fcee376"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/controller_windows/results/W3_B2_adaptive/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/experiments/controller_windows/results/W3_B2_adaptive/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/controller_windows/W3_B2_adaptive_R2/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/experiments/controller_windows/W3_B2_adaptive_R2/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/controller_windows/W3_B2_adaptive_R2/network-events.jsonl",
+      "source": "project_bundle/experiments/controller_windows/W3_B2_adaptive_R2/network-events.jsonl",
+      "size_bytes": 9449,
+      "sha256": "58ee2baafceccb9e9d65cf4c94f381593805abd524a5d6401e23c8f28ca8215c"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/controller_windows/schedules/W3_B2_schedule_12min.csv",
+      "source": "project_bundle/experiments/controller_windows/schedules/W3_B2_schedule_12min.csv",
+      "size_bytes": 635,
+      "sha256": "e38ebb33ba6ce39e93fed815493fa2c17a3a170e5cd129150632381d5c39058e"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/controller_windows/schedules/WINDOW_MANIFEST.json",
+      "source": "project_bundle/experiments/controller_windows/schedules/WINDOW_MANIFEST.json",
+      "size_bytes": 851,
+      "sha256": "29b73b31942da5120ed5c3ac36238a874c2d48ccff68a3c608a9636e23fc6388"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/controller_windows/schedules/W1_B3_schedule_12min.csv",
+      "source": "project_bundle/experiments/controller_windows/schedules/W1_B3_schedule_12min.csv",
+      "size_bytes": 575,
+      "sha256": "2a1aa1bb14e415c4a4530b43a5b00718fd4138a3dcf471d55349ac7ada7fca93"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/controller_windows/schedules/W2_B1_schedule_12min.csv",
+      "source": "project_bundle/experiments/controller_windows/schedules/W2_B1_schedule_12min.csv",
+      "size_bytes": 568,
+      "sha256": "e55132d211a1c2811dc3209b592c208d63bab54dc697775dc86b7eb7101061fb"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/controller_windows/CONTROLLER_TEST_PLAN.md",
+      "source": "project_bundle/experiments/controller_windows/CONTROLLER_TEST_PLAN.md",
+      "size_bytes": 4645,
+      "sha256": "081b999234eeee2ac717a1aef7df9d3ef1817b58d46900895dbb378ddf52e8dc"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/BASELINE_AUTOMATION.md",
+      "source": "project_bundle/experiments/BASELINE_AUTOMATION.md",
+      "size_bytes": 8451,
+      "sha256": "ff975146ec34e074ba988772bc81c41605ade62fb15b6ccb472bf973757e54e1"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/baseline-profiles.json",
+      "source": "project_bundle/experiments/baseline-profiles.json",
+      "size_bytes": 1941,
+      "sha256": "4885d7b6358f4e741c02eb8e480fa81742beba78a722bbc1ac197ab41aeacbde"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/protocol.md",
+      "source": "project_bundle/experiments/protocol.md",
+      "size_bytes": 5630,
+      "sha256": "479c7a9e394044d6ed2a233ea45fe02393d7ad39fba583fbae67b264d90e90b2"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/trial-plan.csv",
+      "source": "project_bundle/experiments/trial-plan.csv",
+      "size_bytes": 1776,
+      "sha256": "6e68535fff65512a0f9cce0846d59477398ddcfa8d64e608d0e9997fae72931c"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/trial-matrix.json",
+      "source": "project_bundle/experiments/trial-matrix.json",
+      "size_bytes": 872,
+      "sha256": "0609680abdbe4db0dfc9894509e16b204bf238ecd5c860b7ca4fdb835e133140"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/automated_w2_ablations_20261118_062928/RTT_200_W2/network/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/RTT_200_W2/network/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/automated_w2_ablations_20261118_062928/RTT_200_W2/network/network-events.jsonl",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/RTT_200_W2/network/network-events.jsonl",
+      "size_bytes": 8791,
+      "sha256": "99c1ac37cd32346b5a81485471ed20d3a170704836fdc600e354a27b715e2f86"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/automated_w2_ablations_20261118_062928/RTT_200_W2/adaptation-controller-used.js",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/RTT_200_W2/adaptation-controller-used.js",
+      "size_bytes": 5637,
+      "sha256": "8df32cfe3f934d2e3ee966e50fe4367ff35bd43781e81509eef2bfa4eb48d532"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/automated_w2_ablations_20261118_062928/RTT_200_W2/source-hashes.sha256",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/RTT_200_W2/source-hashes.sha256",
+      "size_bytes": 230,
+      "sha256": "6141d6d17ebe75f8031fb6f4393bb4a66c43b6fb5dcd43025a8ea0e5a052210b"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/automated_w2_ablations_20261118_062928/RTT_200_W2/trial-config.json",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/RTT_200_W2/trial-config.json",
+      "size_bytes": 300,
+      "sha256": "f3fd0a27c42641d35ea298d1e314dbc942fb36160f889f4dc10867db2e32e72e"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/automated_w2_ablations_20261118_062928/W2_schedule.sha256",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/W2_schedule.sha256",
+      "size_bytes": 132,
+      "sha256": "18f651a0aa2effeb1c8e690351e94f200c101dbb5694cbd4f6d61a1a5105312e"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/automated_w2_ablations_20261118_062928/server.log",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/server.log",
+      "size_bytes": 142,
+      "sha256": "3ae72bdaeca3bdf8ce368cf135d878f77cfa36b7eb31be21c8fe484b8ca3791f"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/automated_w2_ablations_20261118_062928/FPS_OFF_W2/adaptation-controller-used.js",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/FPS_OFF_W2/adaptation-controller-used.js",
+      "size_bytes": 5607,
+      "sha256": "56cfd134df65df4b39e37bb9a6e5f5a99fab7a947ab7b93b5e4409737d4f09e9"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/automated_w2_ablations_20261118_062928/FPS_OFF_W2/source-hashes.sha256",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/FPS_OFF_W2/source-hashes.sha256",
+      "size_bytes": 230,
+      "sha256": "71bff2bde4c1e94888599af1ae3c57d240b21a1bc20a3133d333c4d0a90d927e"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/automated_w2_ablations_20261118_062928/FPS_OFF_W2/trial-config.json",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/FPS_OFF_W2/trial-config.json",
+      "size_bytes": 301,
+      "sha256": "9ddd09feecde1147cee41da2fb4d681d85b8518ae9023693a14ebce9c9d985e2"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/automated_w2_ablations_20261118_062928/FPS_OFF_W2/network/network-events.jsonl",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/FPS_OFF_W2/network/network-events.jsonl",
+      "size_bytes": 8789,
+      "sha256": "e8cd2abd104af6bbf2d3dd9b570f26704b6aa2c7400c7999f71550a9b17b5dc9"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/automated_w2_ablations_20261118_062928/FPS_OFF_W2/network/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/FPS_OFF_W2/network/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/automated_w2_ablations_20261118_062928/RTT_400_W2/network/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/RTT_400_W2/network/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/automated_w2_ablations_20261118_062928/RTT_400_W2/network/network-events.jsonl",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/RTT_400_W2/network/network-events.jsonl",
+      "size_bytes": 8789,
+      "sha256": "2c32137f548fcf89b41915f4caf878cead1cda8f01d74f5d06b289ebc61cf2cf"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/automated_w2_ablations_20261118_062928/RTT_400_W2/adaptation-controller-used.js",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/RTT_400_W2/adaptation-controller-used.js",
+      "size_bytes": 5637,
+      "sha256": "46e4567d8451b0ebff2d3fd8967a28e261bb059473cb8d7a89e4c3fcc27e5f8e"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/automated_w2_ablations_20261118_062928/RTT_400_W2/source-hashes.sha256",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/RTT_400_W2/source-hashes.sha256",
+      "size_bytes": 230,
+      "sha256": "f4ff81f63603ffc5605f52b0db415ece880d307533489b864c250bf3eca3d8fa"
+    },
+    {
+      "path": "02_Experimental_Design/experiments/automated_w2_ablations_20261118_062928/RTT_400_W2/trial-config.json",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/RTT_400_W2/trial-config.json",
+      "size_bytes": 300,
+      "sha256": "001e091893380d5429e82210098cea1bd589a07c8939e43823db58ba3aa61373"
+    },
+    {
+      "path": "00_Project_Guide/CHANGELOG_V2.md",
+      "source": "project_bundle/CHANGELOG_V2.md",
+      "size_bytes": 2774,
+      "sha256": "0fffef37d11091df6d7ad5a069af05ef1ac15829f9988a6538df99cc1389dce8"
+    },
+    {
+      "path": "09_Tests_and_Validation/results/validation/IFB_Bidirectional_Delay_Validation_04Nov2026/validation_log.txt",
+      "source": "project_bundle/results/validation/IFB_Bidirectional_Delay_Validation_04Nov2026/validation_log.txt",
+      "size_bytes": 1626,
+      "sha256": "93c8f77507649f7da58f20dbd1c50a3863f2d78b8bb31f5ea8c534b8cc2d892d"
+    },
+    {
+      "path": "00_Project_Guide/README.md",
+      "source": "project_bundle/README.md",
+      "size_bytes": 17035,
+      "sha256": "dc4ef2e50db385994da10a7d812180aea42cbec85331d9dff11d7c5554bb1ad2"
+    },
+    {
+      "path": "08_Analysis_Tools/analysis/extract_raw_stats.py",
+      "source": "project_bundle/analysis/extract_raw_stats.py",
+      "size_bytes": 3069,
+      "sha256": "e536e7a610bff78fb0a8326e135717a8ff77e11d33a5628120d280d0b0b548a4"
+    },
+    {
+      "path": "08_Analysis_Tools/analysis/analyze.py",
+      "source": "project_bundle/analysis/analyze.py",
+      "size_bytes": 10615,
+      "sha256": "7d576bb7c8a4fbdc340f7a6ce3b6236b5ce6885933b9fee1db8d204f1a7e4915"
+    },
+    {
+      "path": "08_Analysis_Tools/analysis/requirements.txt",
+      "source": "project_bundle/analysis/requirements.txt",
+      "size_bytes": 28,
+      "sha256": "ded87734abf9c98528f47f5ae0784264512f28d4141e65962338bc44caea4c41"
+    },
+    {
+      "path": "09_Tests_and_Validation/tests/adaptation-controller.test.js",
+      "source": "project_bundle/tests/adaptation-controller.test.js",
+      "size_bytes": 2654,
+      "sha256": "57d2da363893eaaf13eaf1bfe33ec873ed4fb1f1e0b0b543592e0db05d9a75c7"
+    },
+    {
+      "path": "09_Tests_and_Validation/tests/test_experiment_planning.py",
+      "source": "project_bundle/tests/test_experiment_planning.py",
+      "size_bytes": 4711,
+      "sha256": "8f58d05f57789105f6f23fe4349d25fd825f4a147b8e0a1b164a3dcc83bde48b"
+    },
+    {
+      "path": "01_Source_Code/.gitignore",
+      "source": "project_bundle/.gitignore",
+      "size_bytes": 125,
+      "sha256": "92a7dc03774ae119efdb82d37a4fb8c6ee2d6305e5047f6f5014a68326b6e3fa"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W1_Final_0.92/webrtc-W1_TUNED_092_125-raw-getstats.jsonl",
+      "source": "project_bundle/adaptation results/W1-tune-2/webrtc-W1_TUNED_092_125-raw-getstats.jsonl",
+      "size_bytes": 7072871,
+      "sha256": "e869b51cc3bbe40477d8b65783f00f7f8866369618863028d3a8db8d2d172a68"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W1_Final_0.92/webrtc-W1_TUNED_092_125-browser-api.jsonl",
+      "source": "project_bundle/adaptation results/W1-tune-2/webrtc-W1_TUNED_092_125-browser-api.jsonl",
+      "size_bytes": 7566198,
+      "sha256": "d73527e7b983ba0656af508e9e3af140afca4ef6180b61d92978eb4e7de2005b"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W1_Final_0.92/webrtc-W1_TUNED_092_125-complete-run.json",
+      "source": "project_bundle/adaptation results/W1-tune-2/webrtc-W1_TUNED_092_125-complete-run.json",
+      "size_bytes": 26488997,
+      "sha256": "b6e94089f32a59dcfe6c91d1388136ceb8bc247d1fc1aeec9883686e9d86cbaa"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W1_Final_0.92/webrtc-W1_TUNED_092_125-adaptive-metrics.csv",
+      "source": "project_bundle/adaptation results/W1-tune-2/webrtc-W1_TUNED_092_125-adaptive-metrics.csv",
+      "size_bytes": 359729,
+      "sha256": "502591b28330292000e55f25967048b660dc60664fa19145a612e5af4c2e0cd6"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W1_Final_0.92/network-events.jsonl",
+      "source": "project_bundle/adaptation results/W1-tune-2/network-events.jsonl",
+      "size_bytes": 8829,
+      "sha256": "d2ee63b5983edf4e2087e6eb184d3ee986033ae06623126e40ff1e15ac97eedd"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W1_Final_0.92/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/adaptation results/W1-tune-2/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W2_Final_0.92/webrtc-W2-B1-R1-raw-getstats.jsonl",
+      "source": "project_bundle/adaptation results/W2_W1-tune-2/webrtc-W2-B1-R1-raw-getstats.jsonl",
+      "size_bytes": 7067244,
+      "sha256": "00e9d6de0f7b80ebf50c1c470ba467679b7bb0f592eb579b4552b612c5d2bb65"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W2_Final_0.92/webrtc-W2-B1-R1-browser-api.jsonl",
+      "source": "project_bundle/adaptation results/W2_W1-tune-2/webrtc-W2-B1-R1-browser-api.jsonl",
+      "size_bytes": 7558777,
+      "sha256": "98a207a15c23c6cf3b84e01443bd241b8d3f5b64c950e1cc0826485ed0a70c60"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W2_Final_0.92/webrtc-W2-B1-R1-adaptive-metrics.csv",
+      "source": "project_bundle/adaptation results/W2_W1-tune-2/webrtc-W2-B1-R1-adaptive-metrics.csv",
+      "size_bytes": 352587,
+      "sha256": "79286a74df3314d9313aedfd6ac8b1fdf09c086b1bcfa34ee2a9a5a48e37ae12"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W2_Final_0.92/webrtc-W2-B1-R1-complete-run.json",
+      "source": "project_bundle/adaptation results/W2_W1-tune-2/webrtc-W2-B1-R1-complete-run.json",
+      "size_bytes": 26464324,
+      "sha256": "efac0c43f142cfbecf8128856cda9ce8ea69cba3fe5692ffb045487d5126af8f"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W2_Final_0.92/network-events.jsonl",
+      "source": "project_bundle/adaptation results/W2_W1-tune-2/network-events.jsonl",
+      "size_bytes": 8788,
+      "sha256": "28a1ab833cd8b21f174c4cb319df873b52280391af695f12f191824dc199743e"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W2_Final_0.92/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/adaptation results/W2_W1-tune-2/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Final_0.92/webrtc-W3-B2-R1-raw-getstats.jsonl",
+      "source": "project_bundle/adaptation results/W3_W1-tune-2/webrtc-W3-B2-R1-raw-getstats.jsonl",
+      "size_bytes": 7065687,
+      "sha256": "8a1bab497ed4bfaed102a71b4c0cab345fbc29df9c299eca3823eeb9bfd767e3"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Final_0.92/webrtc-W3-B2-R1-adaptive-metrics.csv",
+      "source": "project_bundle/adaptation results/W3_W1-tune-2/webrtc-W3-B2-R1-adaptive-metrics.csv",
+      "size_bytes": 354493,
+      "sha256": "79217e2a66f1f9b88c119305cae1ce1a5866d040134fc2df573e0bb838ddab8f"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Final_0.92/network-events.jsonl",
+      "source": "project_bundle/adaptation results/W3_W1-tune-2/network-events.jsonl",
+      "size_bytes": 9449,
+      "sha256": "345185e46b8ebafb407d6216a9bb8bc99be08b844ca6169330ef376d0fcee376"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Final_0.92/webrtc-W3-B2-R1-browser-api.jsonl",
+      "source": "project_bundle/adaptation results/W3_W1-tune-2/webrtc-W3-B2-R1-browser-api.jsonl",
+      "size_bytes": 7559396,
+      "sha256": "ff11fbc6b6fbad6bbd9371fc6feef712b2805daa9aaaa5f0361b597340aad25f"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Final_0.92/webrtc-W3-B2-R1-complete-run.json",
+      "source": "project_bundle/adaptation results/W3_W1-tune-2/webrtc-W3-B2-R1-complete-run.json",
+      "size_bytes": 26468543,
+      "sha256": "0a9345ec170921563caa5f348849e794290dbbafb00140b2bc4e99e978d9b821"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Final_0.92/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/adaptation results/W3_W1-tune-2/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Mitigation_0.82/webrtc-W3-B2-R1-raw-getstats.jsonl",
+      "source": "project_bundle/adaptation results/W3-mitigation-1/webrtc-W3-B2-R1-raw-getstats.jsonl",
+      "size_bytes": 7069675,
+      "sha256": "c40f61cfca7cc414be59a5dec52f33d22f5fa3acc9b4de263bb7df5e7a3190ba"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Mitigation_0.82/webrtc-W3-B2-R1-browser-api.jsonl",
+      "source": "project_bundle/adaptation results/W3-mitigation-1/webrtc-W3-B2-R1-browser-api.jsonl",
+      "size_bytes": 7558018,
+      "sha256": "a47c00410cbf9c308389523dcf6b40fd93bc191550d48b8ccec7d424c677046e"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Mitigation_0.82/webrtc-W3-B2-R1-adaptive-metrics.csv",
+      "source": "project_bundle/adaptation results/W3-mitigation-1/webrtc-W3-B2-R1-adaptive-metrics.csv",
+      "size_bytes": 352679,
+      "sha256": "49dba98ad0607f111c723ff09807d133db793d0c521bbcd2a7a9d858130a4c93"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Mitigation_0.82/webrtc-W3-B2-R1-complete-run.json",
+      "source": "project_bundle/adaptation results/W3-mitigation-1/webrtc-W3-B2-R1-complete-run.json",
+      "size_bytes": 26467840,
+      "sha256": "7825af70f4004e18ec66bc12c09f846ff2c0ff7b1d2c3acf16060351d551e550"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Mitigation_0.82/network-events.jsonl",
+      "source": "project_bundle/adaptation results/W3-mitigation-1/network-events.jsonl",
+      "size_bytes": 9449,
+      "sha256": "58ee2baafceccb9e9d65cf4c94f381593805abd524a5d6401e23c8f28ca8215c"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Mitigation_0.82/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/adaptation results/W3-mitigation-1/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/FPS-Ablation-W2/webrtc-FPS_OFF_W2-raw-getstats.jsonl",
+      "source": "project_bundle/adaptation results/FPS-Ablation-W2/webrtc-FPS_OFF_W2-raw-getstats.jsonl",
+      "size_bytes": 6126293,
+      "sha256": "df9979711bc6a27a12582d5d553ae89c5b8920a9635fb9cf2f40b8889769be28"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/FPS-Ablation-W2/webrtc-FPS_OFF_W2-adaptive-metrics.csv",
+      "source": "project_bundle/adaptation results/FPS-Ablation-W2/webrtc-FPS_OFF_W2-adaptive-metrics.csv",
+      "size_bytes": 344739,
+      "sha256": "3552e47685007f1dd9c3287dd2aafb4813533c87062578b6cd593b09364afe88"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/FPS-Ablation-W2/webrtc-FPS_OFF_W2-browser-api.jsonl",
+      "source": "project_bundle/adaptation results/FPS-Ablation-W2/webrtc-FPS_OFF_W2-browser-api.jsonl",
+      "size_bytes": 6554451,
+      "sha256": "ee7fb0f8bd22b0128392e63ba92acf7414a9f87d1dac073336723550343827c9"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/FPS-Ablation-W2/webrtc-FPS_OFF_W2-complete-run.json",
+      "source": "project_bundle/adaptation results/FPS-Ablation-W2/webrtc-FPS_OFF_W2-complete-run.json",
+      "size_bytes": 22982179,
+      "sha256": "e8807cdf8488777e13ad49945390b5619145a209111402114f5c0bf782bcb3e9"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/RTT-sensitivity-W2/webrtc-RTT_200_W2-raw-getstats.jsonl",
+      "source": "project_bundle/adaptation results/RTT-sensitivity-W2/webrtc-RTT_200_W2-raw-getstats.jsonl",
+      "size_bytes": 6119956,
+      "sha256": "0ac95cf9565fbb71f966d75c93446c3d65c8e2f9edd6b83f6c6fe8bbeb619014"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/RTT-sensitivity-W2/webrtc-RTT_200_W2-adaptive-metrics.csv",
+      "source": "project_bundle/adaptation results/RTT-sensitivity-W2/webrtc-RTT_200_W2-adaptive-metrics.csv",
+      "size_bytes": 345044,
+      "sha256": "60d9e4e121d732a3322b5ab57650e01c39ef563d5e98d06e0c098471fd10f01b"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/RTT-sensitivity-W2/webrtc-RTT_200_W2-browser-api.jsonl",
+      "source": "project_bundle/adaptation results/RTT-sensitivity-W2/webrtc-RTT_200_W2-browser-api.jsonl",
+      "size_bytes": 6556039,
+      "sha256": "be7fc5f188675accf9722f2b9db8ac103f812440f3c7b106e87b66c52b3aebfc"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/RTT-sensitivity-W2/webrtc-RTT_200_W2-complete-run.json",
+      "source": "project_bundle/adaptation results/RTT-sensitivity-W2/webrtc-RTT_200_W2-complete-run.json",
+      "size_bytes": 22967101,
+      "sha256": "77c244a31e1c4995bc811712474eb5bc466b6272fcb8181a88fb7d7c806bd6d1"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/RTT-sensitivity-W2/webrtc-RTT_400_W2-raw-getstats.jsonl",
+      "source": "project_bundle/adaptation results/RTT-sensitivity-W2/webrtc-RTT_400_W2-raw-getstats.jsonl",
+      "size_bytes": 6119974,
+      "sha256": "0382f628dda51c13d83ec9e845d8341eb27c3912f61ec216b78b62faa73dca0f"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/RTT-sensitivity-W2/webrtc-RTT_400_W2-adaptive-metrics.csv",
+      "source": "project_bundle/adaptation results/RTT-sensitivity-W2/webrtc-RTT_400_W2-adaptive-metrics.csv",
+      "size_bytes": 343766,
+      "sha256": "91aa1a89743e50fbfed923182fe0c2028a5e6a607230d10671f241deb9a8f7ed"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/RTT-sensitivity-W2/webrtc-RTT_400_W2-browser-api.jsonl",
+      "source": "project_bundle/adaptation results/RTT-sensitivity-W2/webrtc-RTT_400_W2-browser-api.jsonl",
+      "size_bytes": 6552652,
+      "sha256": "36950521d6774880f5900748af122b1bf90b19949c01ca9f02308ac8c8f89102"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/RTT-sensitivity-W2/webrtc-RTT_400_W2-complete-run.json",
+      "source": "project_bundle/adaptation results/RTT-sensitivity-W2/webrtc-RTT_400_W2-complete-run.json",
+      "size_bytes": 22971917,
+      "sha256": "7038d5ef08d93c0fa20151cd2f51098925ac86a16fe94c69d037788781ca8d9c"
+    },
+    {
+      "path": "08_Analysis_Tools/W3_Root_Cause/w3_replay_results.txt",
+      "source": "project_bundle/w3_replay_results.txt",
+      "size_bytes": 1375,
+      "sha256": "90c97c49bc0fbbf86b29887281c0752d44375be49ca4186c43044bd00c6cb80f"
+    },
+    {
+      "path": "08_Analysis_Tools/W3_Root_Cause/w3_controller_replay.py",
+      "source": "project_bundle/w3_controller_replay.py",
+      "size_bytes": 5355,
+      "sha256": "e17bc8f202171e0ee16f3d2562dbd4a744438458cfa8ed4245e016e642b5184a"
+    },
+    {
+      "path": "08_Analysis_Tools/run_w2_ablations_original(1).sh",
+      "source": "project_bundle/run_w2_ablations_original(1).sh",
+      "size_bytes": 7534,
+      "sha256": "a0000b9be115764e8177ad7b59073570615787cfae27c2066ddf7a835f2e6a1f"
+    },
+    {
+      "path": "03_Baseline_Experiments/Ubuntu/Executed_Network_Records/executed_baselines/B1-network/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/experiments/baseline_final_3runs/executed_baselines.zip::executed_baselines/B1-network/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "03_Baseline_Experiments/Ubuntu/Executed_Network_Records/executed_baselines/B1-network/network-events.jsonl",
+      "source": "project_bundle/experiments/baseline_final_3runs/executed_baselines.zip::executed_baselines/B1-network/network-events.jsonl",
+      "size_bytes": 40707,
+      "sha256": "ed5feef6fdfd1752c051a2a1b272435987a8e0eb25e1a042879fa7bebda25631"
+    },
+    {
+      "path": "03_Baseline_Experiments/Ubuntu/Executed_Network_Records/executed_baselines/B2-network/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/experiments/baseline_final_3runs/executed_baselines.zip::executed_baselines/B2-network/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "03_Baseline_Experiments/Ubuntu/Executed_Network_Records/executed_baselines/B2-network/network-events.jsonl",
+      "source": "project_bundle/experiments/baseline_final_3runs/executed_baselines.zip::executed_baselines/B2-network/network-events.jsonl",
+      "size_bytes": 40208,
+      "sha256": "fe5ca5881491ad8d4a5bc2dda5f31288b8523e503c15bca62be5046d5da45f20"
+    },
+    {
+      "path": "03_Baseline_Experiments/Ubuntu/Executed_Network_Records/executed_baselines/B3-network/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/experiments/baseline_final_3runs/executed_baselines.zip::executed_baselines/B3-network/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "03_Baseline_Experiments/Ubuntu/Executed_Network_Records/executed_baselines/B3-network/network-events.jsonl",
+      "source": "project_bundle/experiments/baseline_final_3runs/executed_baselines.zip::executed_baselines/B3-network/network-events.jsonl",
+      "size_bytes": 39034,
+      "sha256": "7ff39e33b6d927a07f93fcc768bab8fe595d15b9b2bc367e2d266f27b40d995f"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Network_Details/ablation-senstivity-tests-network-details/FPS_OFF_W2/adaptation-controller-used.js",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/ablation-senstivity-tests-network-details.zip::ablation-senstivity-tests-network-details/FPS_OFF_W2/adaptation-controller-used.js",
+      "size_bytes": 5607,
+      "sha256": "56cfd134df65df4b39e37bb9a6e5f5a99fab7a947ab7b93b5e4409737d4f09e9"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Network_Details/ablation-senstivity-tests-network-details/FPS_OFF_W2/source-hashes.sha256",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/ablation-senstivity-tests-network-details.zip::ablation-senstivity-tests-network-details/FPS_OFF_W2/source-hashes.sha256",
+      "size_bytes": 230,
+      "sha256": "71bff2bde4c1e94888599af1ae3c57d240b21a1bc20a3133d333c4d0a90d927e"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Network_Details/ablation-senstivity-tests-network-details/FPS_OFF_W2/trial-config.json",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/ablation-senstivity-tests-network-details.zip::ablation-senstivity-tests-network-details/FPS_OFF_W2/trial-config.json",
+      "size_bytes": 301,
+      "sha256": "9ddd09feecde1147cee41da2fb4d681d85b8518ae9023693a14ebce9c9d985e2"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Network_Details/ablation-senstivity-tests-network-details/FPS_OFF_W2/network/network-events.jsonl",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/ablation-senstivity-tests-network-details.zip::ablation-senstivity-tests-network-details/FPS_OFF_W2/network/network-events.jsonl",
+      "size_bytes": 8789,
+      "sha256": "e8cd2abd104af6bbf2d3dd9b570f26704b6aa2c7400c7999f71550a9b17b5dc9"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Network_Details/ablation-senstivity-tests-network-details/FPS_OFF_W2/network/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/ablation-senstivity-tests-network-details.zip::ablation-senstivity-tests-network-details/FPS_OFF_W2/network/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Network_Details/ablation-senstivity-tests-network-details/RTT_200_W2/network/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/ablation-senstivity-tests-network-details.zip::ablation-senstivity-tests-network-details/RTT_200_W2/network/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Network_Details/ablation-senstivity-tests-network-details/RTT_200_W2/network/network-events.jsonl",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/ablation-senstivity-tests-network-details.zip::ablation-senstivity-tests-network-details/RTT_200_W2/network/network-events.jsonl",
+      "size_bytes": 8791,
+      "sha256": "99c1ac37cd32346b5a81485471ed20d3a170704836fdc600e354a27b715e2f86"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Network_Details/ablation-senstivity-tests-network-details/RTT_200_W2/adaptation-controller-used.js",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/ablation-senstivity-tests-network-details.zip::ablation-senstivity-tests-network-details/RTT_200_W2/adaptation-controller-used.js",
+      "size_bytes": 5637,
+      "sha256": "8df32cfe3f934d2e3ee966e50fe4367ff35bd43781e81509eef2bfa4eb48d532"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Network_Details/ablation-senstivity-tests-network-details/RTT_200_W2/source-hashes.sha256",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/ablation-senstivity-tests-network-details.zip::ablation-senstivity-tests-network-details/RTT_200_W2/source-hashes.sha256",
+      "size_bytes": 230,
+      "sha256": "6141d6d17ebe75f8031fb6f4393bb4a66c43b6fb5dcd43025a8ea0e5a052210b"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Network_Details/ablation-senstivity-tests-network-details/RTT_200_W2/trial-config.json",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/ablation-senstivity-tests-network-details.zip::ablation-senstivity-tests-network-details/RTT_200_W2/trial-config.json",
+      "size_bytes": 300,
+      "sha256": "f3fd0a27c42641d35ea298d1e314dbc942fb36160f889f4dc10867db2e32e72e"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Network_Details/ablation-senstivity-tests-network-details/RTT_400_W2/network/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/ablation-senstivity-tests-network-details.zip::ablation-senstivity-tests-network-details/RTT_400_W2/network/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Network_Details/ablation-senstivity-tests-network-details/RTT_400_W2/network/network-events.jsonl",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/ablation-senstivity-tests-network-details.zip::ablation-senstivity-tests-network-details/RTT_400_W2/network/network-events.jsonl",
+      "size_bytes": 8789,
+      "sha256": "2c32137f548fcf89b41915f4caf878cead1cda8f01d74f5d06b289ebc61cf2cf"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Network_Details/ablation-senstivity-tests-network-details/RTT_400_W2/adaptation-controller-used.js",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/ablation-senstivity-tests-network-details.zip::ablation-senstivity-tests-network-details/RTT_400_W2/adaptation-controller-used.js",
+      "size_bytes": 5637,
+      "sha256": "46e4567d8451b0ebff2d3fd8967a28e261bb059473cb8d7a89e4c3fcc27e5f8e"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Network_Details/ablation-senstivity-tests-network-details/RTT_400_W2/source-hashes.sha256",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/ablation-senstivity-tests-network-details.zip::ablation-senstivity-tests-network-details/RTT_400_W2/source-hashes.sha256",
+      "size_bytes": 230,
+      "sha256": "f4ff81f63603ffc5605f52b0db415ece880d307533489b864c250bf3eca3d8fa"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Network_Details/ablation-senstivity-tests-network-details/RTT_400_W2/trial-config.json",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/ablation-senstivity-tests-network-details.zip::ablation-senstivity-tests-network-details/RTT_400_W2/trial-config.json",
+      "size_bytes": 300,
+      "sha256": "001e091893380d5429e82210098cea1bd589a07c8939e43823db58ba3aa61373"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Network_Details/ablation-senstivity-tests-network-details/server.log",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/ablation-senstivity-tests-network-details.zip::ablation-senstivity-tests-network-details/server.log",
+      "size_bytes": 142,
+      "sha256": "3ae72bdaeca3bdf8ce368cf135d878f77cfa36b7eb31be21c8fe484b8ca3791f"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Network_Details/ablation-senstivity-tests-network-details/W2_schedule.sha256",
+      "source": "project_bundle/experiments/automated_w2_ablations_20261118_062928/ablation-senstivity-tests-network-details.zip::ablation-senstivity-tests-network-details/W2_schedule.sha256",
+      "size_bytes": 132,
+      "sha256": "18f651a0aa2effeb1c8e690351e94f200c101dbb5694cbd4f6d61a1a5105312e"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W1_Final_0.92/W1-tune-2/webrtc-W1_TUNED_092_125-raw-getstats.jsonl",
+      "source": "project_bundle/adaptation results/W1-tune-2.zip::W1-tune-2/webrtc-W1_TUNED_092_125-raw-getstats.jsonl",
+      "size_bytes": 7072871,
+      "sha256": "e869b51cc3bbe40477d8b65783f00f7f8866369618863028d3a8db8d2d172a68"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W1_Final_0.92/W1-tune-2/webrtc-W1_TUNED_092_125-browser-api.jsonl",
+      "source": "project_bundle/adaptation results/W1-tune-2.zip::W1-tune-2/webrtc-W1_TUNED_092_125-browser-api.jsonl",
+      "size_bytes": 7566198,
+      "sha256": "d73527e7b983ba0656af508e9e3af140afca4ef6180b61d92978eb4e7de2005b"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W1_Final_0.92/W1-tune-2/webrtc-W1_TUNED_092_125-complete-run.json",
+      "source": "project_bundle/adaptation results/W1-tune-2.zip::W1-tune-2/webrtc-W1_TUNED_092_125-complete-run.json",
+      "size_bytes": 26488997,
+      "sha256": "b6e94089f32a59dcfe6c91d1388136ceb8bc247d1fc1aeec9883686e9d86cbaa"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W1_Final_0.92/W1-tune-2/webrtc-W1_TUNED_092_125-adaptive-metrics.csv",
+      "source": "project_bundle/adaptation results/W1-tune-2.zip::W1-tune-2/webrtc-W1_TUNED_092_125-adaptive-metrics.csv",
+      "size_bytes": 359729,
+      "sha256": "502591b28330292000e55f25967048b660dc60664fa19145a612e5af4c2e0cd6"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W1_Final_0.92/W1-tune-2/network-events.jsonl",
+      "source": "project_bundle/adaptation results/W1-tune-2.zip::W1-tune-2/network-events.jsonl",
+      "size_bytes": 8829,
+      "sha256": "d2ee63b5983edf4e2087e6eb184d3ee986033ae06623126e40ff1e15ac97eedd"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W1_Final_0.92/W1-tune-2/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/adaptation results/W1-tune-2.zip::W1-tune-2/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W2_Final_0.92/W2_W1-tune-2/webrtc-W2-B1-R1-raw-getstats.jsonl",
+      "source": "project_bundle/adaptation results/W2_W1-tune-2.zip::W2_W1-tune-2/webrtc-W2-B1-R1-raw-getstats.jsonl",
+      "size_bytes": 7067244,
+      "sha256": "00e9d6de0f7b80ebf50c1c470ba467679b7bb0f592eb579b4552b612c5d2bb65"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W2_Final_0.92/W2_W1-tune-2/webrtc-W2-B1-R1-browser-api.jsonl",
+      "source": "project_bundle/adaptation results/W2_W1-tune-2.zip::W2_W1-tune-2/webrtc-W2-B1-R1-browser-api.jsonl",
+      "size_bytes": 7558777,
+      "sha256": "98a207a15c23c6cf3b84e01443bd241b8d3f5b64c950e1cc0826485ed0a70c60"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W2_Final_0.92/W2_W1-tune-2/webrtc-W2-B1-R1-adaptive-metrics.csv",
+      "source": "project_bundle/adaptation results/W2_W1-tune-2.zip::W2_W1-tune-2/webrtc-W2-B1-R1-adaptive-metrics.csv",
+      "size_bytes": 352587,
+      "sha256": "79286a74df3314d9313aedfd6ac8b1fdf09c086b1bcfa34ee2a9a5a48e37ae12"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W2_Final_0.92/W2_W1-tune-2/webrtc-W2-B1-R1-complete-run.json",
+      "source": "project_bundle/adaptation results/W2_W1-tune-2.zip::W2_W1-tune-2/webrtc-W2-B1-R1-complete-run.json",
+      "size_bytes": 26464324,
+      "sha256": "efac0c43f142cfbecf8128856cda9ce8ea69cba3fe5692ffb045487d5126af8f"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W2_Final_0.92/W2_W1-tune-2/network-events.jsonl",
+      "source": "project_bundle/adaptation results/W2_W1-tune-2.zip::W2_W1-tune-2/network-events.jsonl",
+      "size_bytes": 8788,
+      "sha256": "28a1ab833cd8b21f174c4cb319df873b52280391af695f12f191824dc199743e"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W2_Final_0.92/W2_W1-tune-2/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/adaptation results/W2_W1-tune-2.zip::W2_W1-tune-2/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Final_0.92/W3_W1-tune-2/webrtc-W3-B2-R1-raw-getstats.jsonl",
+      "source": "project_bundle/adaptation results/W3_W1-tune-2.zip::W3_W1-tune-2/webrtc-W3-B2-R1-raw-getstats.jsonl",
+      "size_bytes": 7065687,
+      "sha256": "8a1bab497ed4bfaed102a71b4c0cab345fbc29df9c299eca3823eeb9bfd767e3"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Final_0.92/W3_W1-tune-2/webrtc-W3-B2-R1-adaptive-metrics.csv",
+      "source": "project_bundle/adaptation results/W3_W1-tune-2.zip::W3_W1-tune-2/webrtc-W3-B2-R1-adaptive-metrics.csv",
+      "size_bytes": 354493,
+      "sha256": "79217e2a66f1f9b88c119305cae1ce1a5866d040134fc2df573e0bb838ddab8f"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Final_0.92/W3_W1-tune-2/network-events.jsonl",
+      "source": "project_bundle/adaptation results/W3_W1-tune-2.zip::W3_W1-tune-2/network-events.jsonl",
+      "size_bytes": 9449,
+      "sha256": "345185e46b8ebafb407d6216a9bb8bc99be08b844ca6169330ef376d0fcee376"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Final_0.92/W3_W1-tune-2/webrtc-W3-B2-R1-browser-api.jsonl",
+      "source": "project_bundle/adaptation results/W3_W1-tune-2.zip::W3_W1-tune-2/webrtc-W3-B2-R1-browser-api.jsonl",
+      "size_bytes": 7559396,
+      "sha256": "ff11fbc6b6fbad6bbd9371fc6feef712b2805daa9aaaa5f0361b597340aad25f"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Final_0.92/W3_W1-tune-2/webrtc-W3-B2-R1-complete-run.json",
+      "source": "project_bundle/adaptation results/W3_W1-tune-2.zip::W3_W1-tune-2/webrtc-W3-B2-R1-complete-run.json",
+      "size_bytes": 26468543,
+      "sha256": "0a9345ec170921563caa5f348849e794290dbbafb00140b2bc4e99e978d9b821"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Final_0.92/W3_W1-tune-2/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/adaptation results/W3_W1-tune-2.zip::W3_W1-tune-2/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Mitigation_0.82/W3-mitigation-1/webrtc-W3-B2-R1-raw-getstats.jsonl",
+      "source": "project_bundle/adaptation results/W3-mitigation-1.zip::W3-mitigation-1/webrtc-W3-B2-R1-raw-getstats.jsonl",
+      "size_bytes": 7069675,
+      "sha256": "c40f61cfca7cc414be59a5dec52f33d22f5fa3acc9b4de263bb7df5e7a3190ba"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Mitigation_0.82/W3-mitigation-1/webrtc-W3-B2-R1-browser-api.jsonl",
+      "source": "project_bundle/adaptation results/W3-mitigation-1.zip::W3-mitigation-1/webrtc-W3-B2-R1-browser-api.jsonl",
+      "size_bytes": 7558018,
+      "sha256": "a47c00410cbf9c308389523dcf6b40fd93bc191550d48b8ccec7d424c677046e"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Mitigation_0.82/W3-mitigation-1/webrtc-W3-B2-R1-adaptive-metrics.csv",
+      "source": "project_bundle/adaptation results/W3-mitigation-1.zip::W3-mitigation-1/webrtc-W3-B2-R1-adaptive-metrics.csv",
+      "size_bytes": 352679,
+      "sha256": "49dba98ad0607f111c723ff09807d133db793d0c521bbcd2a7a9d858130a4c93"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Mitigation_0.82/W3-mitigation-1/webrtc-W3-B2-R1-complete-run.json",
+      "source": "project_bundle/adaptation results/W3-mitigation-1.zip::W3-mitigation-1/webrtc-W3-B2-R1-complete-run.json",
+      "size_bytes": 26467840,
+      "sha256": "7825af70f4004e18ec66bc12c09f846ff2c0ff7b1d2c3acf16060351d551e550"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Mitigation_0.82/W3-mitigation-1/network-events.jsonl",
+      "source": "project_bundle/adaptation results/W3-mitigation-1.zip::W3-mitigation-1/network-events.jsonl",
+      "size_bytes": 9449,
+      "sha256": "58ee2baafceccb9e9d65cf4c94f381593805abd524a5d6401e23c8f28ca8215c"
+    },
+    {
+      "path": "04_Adaptive_Experiments/W3_Mitigation_0.82/W3-mitigation-1/physical-interface-qdisc-after.txt",
+      "source": "project_bundle/adaptation results/W3-mitigation-1.zip::W3-mitigation-1/physical-interface-qdisc-after.txt",
+      "size_bytes": 530,
+      "sha256": "279ab8adb667dc19eca6704faaf5740cd5bcb402c4a1d760c62900235f81f8f6"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Results/FPS-Ablation-W2/webrtc-FPS_OFF_W2-raw-getstats.jsonl",
+      "source": "project_bundle/adaptation results/ablation-sensitivity-test.zip::FPS-Ablation-W2/webrtc-FPS_OFF_W2-raw-getstats.jsonl",
+      "size_bytes": 6126293,
+      "sha256": "df9979711bc6a27a12582d5d553ae89c5b8920a9635fb9cf2f40b8889769be28"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Results/FPS-Ablation-W2/webrtc-FPS_OFF_W2-adaptive-metrics.csv",
+      "source": "project_bundle/adaptation results/ablation-sensitivity-test.zip::FPS-Ablation-W2/webrtc-FPS_OFF_W2-adaptive-metrics.csv",
+      "size_bytes": 344739,
+      "sha256": "3552e47685007f1dd9c3287dd2aafb4813533c87062578b6cd593b09364afe88"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Results/FPS-Ablation-W2/webrtc-FPS_OFF_W2-browser-api.jsonl",
+      "source": "project_bundle/adaptation results/ablation-sensitivity-test.zip::FPS-Ablation-W2/webrtc-FPS_OFF_W2-browser-api.jsonl",
+      "size_bytes": 6554451,
+      "sha256": "ee7fb0f8bd22b0128392e63ba92acf7414a9f87d1dac073336723550343827c9"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Results/FPS-Ablation-W2/webrtc-FPS_OFF_W2-complete-run.json",
+      "source": "project_bundle/adaptation results/ablation-sensitivity-test.zip::FPS-Ablation-W2/webrtc-FPS_OFF_W2-complete-run.json",
+      "size_bytes": 22982179,
+      "sha256": "e8807cdf8488777e13ad49945390b5619145a209111402114f5c0bf782bcb3e9"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Results/RTT-sensitivity-W2/webrtc-RTT_200_W2-raw-getstats.jsonl",
+      "source": "project_bundle/adaptation results/ablation-sensitivity-test.zip::RTT-sensitivity-W2/webrtc-RTT_200_W2-raw-getstats.jsonl",
+      "size_bytes": 6119956,
+      "sha256": "0ac95cf9565fbb71f966d75c93446c3d65c8e2f9edd6b83f6c6fe8bbeb619014"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Results/RTT-sensitivity-W2/webrtc-RTT_200_W2-adaptive-metrics.csv",
+      "source": "project_bundle/adaptation results/ablation-sensitivity-test.zip::RTT-sensitivity-W2/webrtc-RTT_200_W2-adaptive-metrics.csv",
+      "size_bytes": 345044,
+      "sha256": "60d9e4e121d732a3322b5ab57650e01c39ef563d5e98d06e0c098471fd10f01b"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Results/RTT-sensitivity-W2/webrtc-RTT_200_W2-browser-api.jsonl",
+      "source": "project_bundle/adaptation results/ablation-sensitivity-test.zip::RTT-sensitivity-W2/webrtc-RTT_200_W2-browser-api.jsonl",
+      "size_bytes": 6556039,
+      "sha256": "be7fc5f188675accf9722f2b9db8ac103f812440f3c7b106e87b66c52b3aebfc"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Results/RTT-sensitivity-W2/webrtc-RTT_200_W2-complete-run.json",
+      "source": "project_bundle/adaptation results/ablation-sensitivity-test.zip::RTT-sensitivity-W2/webrtc-RTT_200_W2-complete-run.json",
+      "size_bytes": 22967101,
+      "sha256": "77c244a31e1c4995bc811712474eb5bc466b6272fcb8181a88fb7d7c806bd6d1"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Results/RTT-sensitivity-W2/webrtc-RTT_400_W2-raw-getstats.jsonl",
+      "source": "project_bundle/adaptation results/ablation-sensitivity-test.zip::RTT-sensitivity-W2/webrtc-RTT_400_W2-raw-getstats.jsonl",
+      "size_bytes": 6119974,
+      "sha256": "0382f628dda51c13d83ec9e845d8341eb27c3912f61ec216b78b62faa73dca0f"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Results/RTT-sensitivity-W2/webrtc-RTT_400_W2-adaptive-metrics.csv",
+      "source": "project_bundle/adaptation results/ablation-sensitivity-test.zip::RTT-sensitivity-W2/webrtc-RTT_400_W2-adaptive-metrics.csv",
+      "size_bytes": 343766,
+      "sha256": "91aa1a89743e50fbfed923182fe0c2028a5e6a607230d10671f241deb9a8f7ed"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Results/RTT-sensitivity-W2/webrtc-RTT_400_W2-browser-api.jsonl",
+      "source": "project_bundle/adaptation results/ablation-sensitivity-test.zip::RTT-sensitivity-W2/webrtc-RTT_400_W2-browser-api.jsonl",
+      "size_bytes": 6552652,
+      "sha256": "36950521d6774880f5900748af122b1bf90b19949c01ca9f02308ac8c8f89102"
+    },
+    {
+      "path": "05_W2_Ablation_and_Sensitivity/Results/RTT-sensitivity-W2/webrtc-RTT_400_W2-complete-run.json",
+      "source": "project_bundle/adaptation results/ablation-sensitivity-test.zip::RTT-sensitivity-W2/webrtc-RTT_400_W2-complete-run.json",
+      "size_bytes": 22971917,
+      "sha256": "7038d5ef08d93c0fa20151cd2f51098925ac86a16fe94c69d037788781ca8d9c"
+    },
+    {
+      "path": "03_Baseline_Experiments/Ubuntu/Raw_Endpoint_Exports/webrtc-baseline06nov-B3-complete-run.json",
+      "source": "project_bundle/B1_B2_B3-baseline-runs-data-ubuntu.zip::webrtc-baseline06nov-B3-complete-run.json",
+      "size_bytes": 184537924,
+      "sha256": "b179e1a6ebe36f9a0eddaf4e5b1986a10dcd2804210757619c7f03bc5a4c9536"
+    },
+    {
+      "path": "03_Baseline_Experiments/Ubuntu/Raw_Endpoint_Exports/webrtc-baseline06nov-B3-raw-getstats.jsonl",
+      "source": "project_bundle/B1_B2_B3-baseline-runs-data-ubuntu.zip::webrtc-baseline06nov-B3-raw-getstats.jsonl",
+      "size_bytes": 58446643,
+      "sha256": "98feab0624bfb6ad9b06a2544829013cd065bf7353e5810296cca8a1b4314001"
+    },
+    {
+      "path": "03_Baseline_Experiments/Ubuntu/Raw_Endpoint_Exports/webrtc-baseline06nov-B3-browser-api.jsonl",
+      "source": "project_bundle/B1_B2_B3-baseline-runs-data-ubuntu.zip::webrtc-baseline06nov-B3-browser-api.jsonl",
+      "size_bytes": 45942974,
+      "sha256": "6d83a70a5b64cc172c44de26f2f3e8b05fd2ba1c7f2db62ae1fed62a50c9293f"
+    },
+    {
+      "path": "03_Baseline_Experiments/Ubuntu/Raw_Endpoint_Exports/webrtc-baseline06nov-B3-baseline-metrics.csv",
+      "source": "project_bundle/B1_B2_B3-baseline-runs-data-ubuntu.zip::webrtc-baseline06nov-B3-baseline-metrics.csv",
+      "size_bytes": 1653212,
+      "sha256": "188151053dc39f4b5fb14933809023215b58a915b33c63c3191b0d50f6399a6e"
+    },
+    {
+      "path": "03_Baseline_Experiments/Ubuntu/Raw_Endpoint_Exports/webrtc-baseline06nov-B2-complete-run.json",
+      "source": "project_bundle/B1_B2_B3-baseline-runs-data-ubuntu.zip::webrtc-baseline06nov-B2-complete-run.json",
+      "size_bytes": 184412940,
+      "sha256": "af7b2892510657219703e2438f4d6026bf07dfe88cbb56e840ca02c86fcc5263"
+    },
+    {
+      "path": "03_Baseline_Experiments/Ubuntu/Raw_Endpoint_Exports/webrtc-baseline06nov-B2-browser-api.jsonl",
+      "source": "project_bundle/B1_B2_B3-baseline-runs-data-ubuntu.zip::webrtc-baseline06nov-B2-browser-api.jsonl",
+      "size_bytes": 45947856,
+      "sha256": "9b10cffc3a08e3e57efc9eefb066be7082f5ca47d27653c78d2d49951ad266c8"
+    },
+    {
+      "path": "03_Baseline_Experiments/Ubuntu/Raw_Endpoint_Exports/webrtc-baseline06nov-B2-raw-getstats.jsonl",
+      "source": "project_bundle/B1_B2_B3-baseline-runs-data-ubuntu.zip::webrtc-baseline06nov-B2-raw-getstats.jsonl",
+      "size_bytes": 58336321,
+      "sha256": "c29949ad028e4c7049f722c4c1a68e421c81568a5e4b217546ee2e1852f884f9"
+    },
+    {
+      "path": "03_Baseline_Experiments/Ubuntu/Raw_Endpoint_Exports/webrtc-baseline06nov-B2-baseline-metrics.csv",
+      "source": "project_bundle/B1_B2_B3-baseline-runs-data-ubuntu.zip::webrtc-baseline06nov-B2-baseline-metrics.csv",
+      "size_bytes": 1632928,
+      "sha256": "da4ece527f0b85685c095bdd47e629b02c6a6d6cc6f7acec79467f2a88b79b74"
+    },
+    {
+      "path": "03_Baseline_Experiments/Ubuntu/Raw_Endpoint_Exports/webrtc-baseline06nov-B1-complete-run.json",
+      "source": "project_bundle/B1_B2_B3-baseline-runs-data-ubuntu.zip::webrtc-baseline06nov-B1-complete-run.json",
+      "size_bytes": 184304076,
+      "sha256": "804a3ef456b5ddc275af7a69a07a7145f4ce3e9f30e0c84906bda07fde6aa859"
+    },
+    {
+      "path": "03_Baseline_Experiments/Ubuntu/Raw_Endpoint_Exports/webrtc-baseline06nov-B1-raw-getstats.jsonl",
+      "source": "project_bundle/B1_B2_B3-baseline-runs-data-ubuntu.zip::webrtc-baseline06nov-B1-raw-getstats.jsonl",
+      "size_bytes": 58191805,
+      "sha256": "ab14b42b0c0e030c3ee2b0d6b4adac28ed768779bb8510c59965182eaf2ab332"
+    },
+    {
+      "path": "03_Baseline_Experiments/Ubuntu/Raw_Endpoint_Exports/webrtc-baseline06nov-B1-browser-api.jsonl",
+      "source": "project_bundle/B1_B2_B3-baseline-runs-data-ubuntu.zip::webrtc-baseline06nov-B1-browser-api.jsonl",
+      "size_bytes": 45959931,
+      "sha256": "6d46c09c19a4a6c362bd1ffb4ea6dc781127dbaab932df1eceb8a71c95af485e"
+    },
+    {
+      "path": "03_Baseline_Experiments/Ubuntu/Raw_Endpoint_Exports/webrtc-baseline06nov-B1-baseline-metrics.csv",
+      "source": "project_bundle/B1_B2_B3-baseline-runs-data-ubuntu.zip::webrtc-baseline06nov-B1-baseline-metrics.csv",
+      "size_bytes": 1609609,
+      "sha256": "d33cace701592710756cc03afda29b843a0f5f6d3db55f981127dfccac183d7a"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-FPS_OFF_W2-baseline-metrics.csv",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-FPS_OFF_W2-baseline-metrics.csv",
+      "size_bytes": 317151,
+      "sha256": "4642ee90db26ea4a25edaa9f589e18ccdaabeae03e7f62e4029d7a83ecdb3323"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-FPS_OFF_W2-browser-api.jsonl",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-FPS_OFF_W2-browser-api.jsonl",
+      "size_bytes": 7023867,
+      "sha256": "7c8c2dae98835cab1c6c5b621422058d2b026efd9baab78d442abc8914d6a3a2"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-FPS_OFF_W2-complete-run.json",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-FPS_OFF_W2-complete-run.json",
+      "size_bytes": 23418791,
+      "sha256": "179c7b85b35fbd0ff755b8ea351b4b3de5a611ca8cb4169e91d66a8f76853900"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-FPS_OFF_W2-raw-getstats.jsonl",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-FPS_OFF_W2-raw-getstats.jsonl",
+      "size_bytes": 5738784,
+      "sha256": "adbd0afb3cacc5eb5488d5d84ed54bb56ecfdb3978b9dad2939d991383bb39df"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-manual-1794938546793-api-snapshots.jsonl",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-manual-1794938546793-api-snapshots.jsonl",
+      "size_bytes": 8428984,
+      "sha256": "07091d6add4b48b393c44b9d6cfbddcca0e8160432f35cacfc479f16e0406234"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-manual-1794938546793-baseline-metrics.csv",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-manual-1794938546793-baseline-metrics.csv",
+      "size_bytes": 333739,
+      "sha256": "342d413aa6f377b9c7155964130c1ad4f22eee62257fe06d48c13f02994292fd"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-manual-1794938546793-complete-run.json",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-manual-1794938546793-complete-run.json",
+      "size_bytes": 28056122,
+      "sha256": "963415058cfdcd3294fac1b0b6cdd62623f8ef4b2c76094dab1afde6cd0cc418"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-manual-1794938546793-events.jsonl",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-manual-1794938546793-events.jsonl",
+      "size_bytes": 1986,
+      "sha256": "21a5f242518a393aae1abe6ec6c5fd6aab7be3a090299dba80930ddd3b7e8384"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-manual-1794938546793-raw-stats.jsonl",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-manual-1794938546793-raw-stats.jsonl",
+      "size_bytes": 6887153,
+      "sha256": "28a407e7dcdd529381fbd09e33d3c2df56919c1cb744fd8f470321232850bdea"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-RTT_200_W2-baseline-metrics.csv",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-RTT_200_W2-baseline-metrics.csv",
+      "size_bytes": 316865,
+      "sha256": "c50d5a4af70b62b167552df554087a52b930cf1acc2a2f2bd28b463e960c7442"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-RTT_200_W2-browser-api.jsonl",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-RTT_200_W2-browser-api.jsonl",
+      "size_bytes": 7024048,
+      "sha256": "c54894dcb5106a50a3d5bb7231c54f88b792292ebdca5d0e4d7e7bcdb57b183f"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-RTT_200_W2-complete-run.json",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-RTT_200_W2-complete-run.json",
+      "size_bytes": 23457428,
+      "sha256": "557c94817c3ec6c6f9e12181c1039829573e0f420864993da61a2b0813659ce6"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-RTT_200_W2-raw-getstats.jsonl",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-RTT_200_W2-raw-getstats.jsonl",
+      "size_bytes": 5761949,
+      "sha256": "4698a1e5f4dcddebe19c4ea705e0acebdc09bf282285445a913df14a49234f5d"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-RTT_400_W2-baseline-metrics.csv",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-RTT_400_W2-baseline-metrics.csv",
+      "size_bytes": 317826,
+      "sha256": "e2495e3a150da50916246593521a80100c8062be2484c8472220456a50bbdc2f"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-RTT_400_W2-browser-api.jsonl",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-RTT_400_W2-browser-api.jsonl",
+      "size_bytes": 7023908,
+      "sha256": "723bdcc8277db4007fb19207a538cd069555fe08b7cf63f766729df04d74b6e9"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-RTT_400_W2-complete-run.json",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-RTT_400_W2-complete-run.json",
+      "size_bytes": 23456866,
+      "sha256": "9aa898be92a5a5236b50ff41b31e3610eb1467155f53b0b476166e74815ddb1a"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-RTT_400_W2-raw-getstats.jsonl",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-RTT_400_W2-raw-getstats.jsonl",
+      "size_bytes": 5760579,
+      "sha256": "8b807fa26f751d7a25e7a67c6e982ef9c9254c1220da539f90e2b08580605cc6"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W1-corrected-R1-baseline-metrics.csv",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W1-corrected-R1-baseline-metrics.csv",
+      "size_bytes": 328059,
+      "sha256": "333c260865614901fa77ea86574213bf9ee7a7313c9ed673b5efcef4311e91af"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W1-corrected-R1-browser-api.jsonl",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W1-corrected-R1-browser-api.jsonl",
+      "size_bytes": 8110663,
+      "sha256": "71fbbccf81d74519159ced2dacb677a19ed72bdf0015bc8b5e9c130a142f445a"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W1-corrected-R1-complete-run.json",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W1-corrected-R1-complete-run.json",
+      "size_bytes": 27035394,
+      "sha256": "dc821fe19ba28053274ba046489e8a8e7f80e01018fd43dbafe77fbd5c44f55d"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W1-corrected-R1-raw-getstats.jsonl",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W1-corrected-R1-raw-getstats.jsonl",
+      "size_bytes": 6653002,
+      "sha256": "3a6288de9615b5a2b96f26956dd025fcb136acdf531ea90cc7490ae83b8035e0"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W1_TUNED_092_125-baseline-metrics.csv",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W1_TUNED_092_125-baseline-metrics.csv",
+      "size_bytes": 329250,
+      "sha256": "bb89d4b55f9cbb1302159b7a718e21a4831bb188e0b6e80779b72203027162d3"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W1_TUNED_092_125-browser-api.jsonl",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W1_TUNED_092_125-browser-api.jsonl",
+      "size_bytes": 8111408,
+      "sha256": "e0d3f2eb8ac85d62b6ceaf44d399bfc266c37b3f539d313bf8ef3d12829dbfe0"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W1_TUNED_092_125-complete-run.json",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W1_TUNED_092_125-complete-run.json",
+      "size_bytes": 27038985,
+      "sha256": "adec7a3f043dbb96a40894728d98eed7f7ca442f0f1ed45b64f2402d9a4d6a12"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W1_TUNED_092_125-raw-getstats.jsonl",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W1_TUNED_092_125-raw-getstats.jsonl",
+      "size_bytes": 6654630,
+      "sha256": "342a3b6f34154cd195d31ced217858b476be180714075320bad4732926faa784"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W1_TUNED_092_145-baseline-metrics.csv",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W1_TUNED_092_145-baseline-metrics.csv",
+      "size_bytes": 329043,
+      "sha256": "08141ca37ef46f0d631bc1b60d7af94db2d1e2ae2e4561db9f399373ca42378a"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W1_TUNED_092_145-browser-api.jsonl",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W1_TUNED_092_145-browser-api.jsonl",
+      "size_bytes": 8111382,
+      "sha256": "52a3d46f08dcadce29ef87eba2114b22f9ce06ac518f325d36a80e6c54016fa9"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W1_TUNED_092_145-complete-run.json",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W1_TUNED_092_145-complete-run.json",
+      "size_bytes": 27039599,
+      "sha256": "402b511a923f52be2cd084ff943268f537601cefe9b6871f0e23e7291aff514b"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W1_TUNED_092_145-raw-getstats.jsonl",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W1_TUNED_092_145-raw-getstats.jsonl",
+      "size_bytes": 6655478,
+      "sha256": "9a4b26d47d88cb7c97e6947e3ae023f65fa2061e118558d8d22950dbf4cf0146"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W2-B1-R1-baseline-metrics.csv",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W2-B1-R1-baseline-metrics.csv",
+      "size_bytes": 321422,
+      "sha256": "18b8c34f9d46c97f31c6ce8f603714500c5cf71c8037443a9fcb5eef62720d4e"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W2-B1-R1-browser-api.jsonl",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W2-B1-R1-browser-api.jsonl",
+      "size_bytes": 8103429,
+      "sha256": "47a9ac74fcd29e6f4ba2c909c33e8412e693d9c396aba2fe363e158177b64902"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W2-B1-R1-complete-run.json",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W2-B1-R1-complete-run.json",
+      "size_bytes": 27016493,
+      "sha256": "4528dbd618482c081759697afb4f8d34b2273c08b61b8a6ee27b2d11898506af"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W2-B1-R1-raw-getstats.jsonl",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W2-B1-R1-raw-getstats.jsonl",
+      "size_bytes": 6647982,
+      "sha256": "f63b85ef75d79f5b06eed87cafacabc38f01341753c2c84f53af6922b2115883"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W3-B2-R1-baseline-metrics (1).csv",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W3-B2-R1-baseline-metrics (1).csv",
+      "size_bytes": 322810,
+      "sha256": "70bb1e299dabeeda0ef0723a853d5df5f9c42a8590d15bdc998abb3d19cb1a06"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W3-B2-R1-baseline-metrics.csv",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W3-B2-R1-baseline-metrics.csv",
+      "size_bytes": 322930,
+      "sha256": "596ff1fa463faa258f1a958273cace669e371798511398d9ba1a9cb0f28c6888"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W3-B2-R1-browser-api (1).jsonl",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W3-B2-R1-browser-api (1).jsonl",
+      "size_bytes": 8103607,
+      "sha256": "180a23298f7fe3a3b5b51d543ba4e4c9934bf64e37edda6b2582bda044f471e6"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W3-B2-R1-browser-api.jsonl",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W3-B2-R1-browser-api.jsonl",
+      "size_bytes": 8104387,
+      "sha256": "6454b926898eeba7b88ef2cbb018628d51b3f368926693c344838f2a08964360"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W3-B2-R1-complete-run (1).json",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W3-B2-R1-complete-run (1).json",
+      "size_bytes": 27020016,
+      "sha256": "2e1641e9f08393b6168df7dd7d53db08493b1ec16b7f4374d2884fb5f74ba2e8"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W3-B2-R1-complete-run.json",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W3-B2-R1-complete-run.json",
+      "size_bytes": 27021455,
+      "sha256": "4ae4866b5d787e16d4490910219d65a54a1070a773f07f555ee4cbcab127900c"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W3-B2-R1-raw-getstats (1).jsonl",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W3-B2-R1-raw-getstats (1).jsonl",
+      "size_bytes": 6650045,
+      "sha256": "9bfd7de3e286a189d4c6686c0752231b6a114077462ea959681c04e079ac34be"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Adaptive_And_Ablation/adaptation-results/webrtc-W3-B2-R1-raw-getstats.jsonl",
+      "source": "project_bundle/adaptation-results-windows-not-that-imp-just-for-formality.zip::adaptation-results/webrtc-W3-B2-R1-raw-getstats.jsonl",
+      "size_bytes": 6650487,
+      "sha256": "4a0acbbd749bd478753cf0fb05828053c5fc542f3fb055728c86cde1af1f6da3"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Baseline_B1_B2_B3/webrtc-baseline06nov-B3-browser-api.jsonl",
+      "source": "project_bundle/webrtc-baseline06nov-B3-browser-api - Windows.zip::webrtc-baseline06nov-B3-browser-api.jsonl",
+      "size_bytes": 48410667,
+      "sha256": "10bd52a24d3707edde5c211da57b86cb7eed38dc32c184efb69ea15a294bd469"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Baseline_B1_B2_B3/webrtc-baseline06nov-B3-raw-getstats.jsonl",
+      "source": "project_bundle/webrtc-baseline06nov-B3-browser-api - Windows.zip::webrtc-baseline06nov-B3-raw-getstats.jsonl",
+      "size_bytes": 46677151,
+      "sha256": "b23c1c746e43d1fb877e731b00d8a6d2620a703dde8c5f55c59f5922915ecd50"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Baseline_B1_B2_B3/webrtc-baseline06nov-B3-baseline-metrics.csv",
+      "source": "project_bundle/webrtc-baseline06nov-B3-browser-api - Windows.zip::webrtc-baseline06nov-B3-baseline-metrics.csv",
+      "size_bytes": 1701955,
+      "sha256": "bb127313465cf7d7a839e14404014860090c4a796a3369d322d17ee6bd726804"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Baseline_B1_B2_B3/webrtc-baseline06nov-B2-complete-run.json",
+      "source": "project_bundle/webrtc-baseline06nov-B3-browser-api - Windows.zip::webrtc-baseline06nov-B2-complete-run.json",
+      "size_bytes": 171475844,
+      "sha256": "147064bea0cd9230bee29659fe8e0381361ef2f8ffe46d3ab8d1943847814c52"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Baseline_B1_B2_B3/webrtc-baseline06nov-B2-browser-api.jsonl",
+      "source": "project_bundle/webrtc-baseline06nov-B3-browser-api - Windows.zip::webrtc-baseline06nov-B2-browser-api.jsonl",
+      "size_bytes": 48410846,
+      "sha256": "0a6e624f6ab32d1a8ccaf4955b606d579aaa873e35efc03ea413e5af7ea0f302"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Baseline_B1_B2_B3/webrtc-baseline06nov-B2-raw-getstats.jsonl",
+      "source": "project_bundle/webrtc-baseline06nov-B3-browser-api - Windows.zip::webrtc-baseline06nov-B2-raw-getstats.jsonl",
+      "size_bytes": 46584912,
+      "sha256": "00442c5f6022258552cf7512a8bdcd4ac9b49c3511ab98ac12427e5750bfdcf6"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Baseline_B1_B2_B3/webrtc-baseline06nov-B2-baseline-metrics.csv",
+      "source": "project_bundle/webrtc-baseline06nov-B3-browser-api - Windows.zip::webrtc-baseline06nov-B2-baseline-metrics.csv",
+      "size_bytes": 1684382,
+      "sha256": "36f9136c199a484b0f9e464a0f9b5d3aa26b358d0137bf825a2b4470c7f8cd48"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Baseline_B1_B2_B3/webrtc-baseline06nov-B1-complete-run.json",
+      "source": "project_bundle/webrtc-baseline06nov-B3-browser-api - Windows.zip::webrtc-baseline06nov-B1-complete-run.json",
+      "size_bytes": 171316309,
+      "sha256": "2a6c4807a93ec551069c24ca6b4fa06248622ea2067d669f092762231b4640d1"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Baseline_B1_B2_B3/webrtc-baseline06nov-B1-browser-api.jsonl",
+      "source": "project_bundle/webrtc-baseline06nov-B3-browser-api - Windows.zip::webrtc-baseline06nov-B1-browser-api.jsonl",
+      "size_bytes": 48420907,
+      "sha256": "59e61ab3b4d457ec61a439d62a5e5a752469a4c969c7c4fc17aab323b57c85d8"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Baseline_B1_B2_B3/webrtc-baseline06nov-B1-raw-getstats.jsonl",
+      "source": "project_bundle/webrtc-baseline06nov-B3-browser-api - Windows.zip::webrtc-baseline06nov-B1-raw-getstats.jsonl",
+      "size_bytes": 46377705,
+      "sha256": "9005c15da9d058aed116a62d522dbb4c4c866c475eb9cccff5cc1b0c8e20f100"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Baseline_B1_B2_B3/webrtc-baseline06nov-B1-baseline-metrics.csv",
+      "source": "project_bundle/webrtc-baseline06nov-B3-browser-api - Windows.zip::webrtc-baseline06nov-B1-baseline-metrics.csv",
+      "size_bytes": 1664175,
+      "sha256": "376e714b1a1c2b21f11220d73bce3ddf2680df58da0c5d226c99166e18b61a53"
+    },
+    {
+      "path": "07_Complementary_Windows_Peer_Exports/Baseline_B1_B2_B3/webrtc-baseline06nov-B3-complete-run.json",
+      "source": "project_bundle/webrtc-baseline06nov-B3-browser-api - Windows.zip::webrtc-baseline06nov-B3-complete-run.json",
+      "size_bytes": 171584676,
+      "sha256": "57133b41417ca57d4c04a49497adc85f3b4c67ed9f8839d4fafda3904a2f6c1b"
+    }
+  ]
+}

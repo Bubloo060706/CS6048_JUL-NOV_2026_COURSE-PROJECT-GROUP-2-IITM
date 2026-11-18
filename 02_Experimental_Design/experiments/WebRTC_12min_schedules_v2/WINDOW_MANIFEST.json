@@ -1,0 +1,29 @@
+[
+  {
+    "window": "W1_B3",
+    "source_schedule": "S-r03-seed504830888.csv",
+    "original_schedule_start_s": 360,
+    "original_schedule_end_s": 1080,
+    "duration_s": 720,
+    "rows": 17,
+    "note": "start_s rebased to 0; phase/profile/duration segments clipped to window"
+  },
+  {
+    "window": "W2_B1",
+    "source_schedule": "S-r01-seed1393084745.csv",
+    "original_schedule_start_s": 1794,
+    "original_schedule_end_s": 2514,
+    "duration_s": 720,
+    "rows": 17,
+    "note": "start_s rebased to 0; phase/profile/duration segments clipped to window"
+  },
+  {
+    "window": "W3_B2",
+    "source_schedule": "S-r02-seed189711548.csv",
+    "original_schedule_start_s": 2457,
+    "original_schedule_end_s": 3177,
+    "duration_s": 720,
+    "rows": 18,
+    "note": "start_s rebased to 0; phase/profile/duration segments clipped to window"
+  }
+]

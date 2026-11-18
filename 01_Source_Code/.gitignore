@@ -1,0 +1,11 @@
+node_modules/
+*.log
+.DS_Store
+analysis/output/
+analysis/__pycache__/
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+results/
+*.pyc

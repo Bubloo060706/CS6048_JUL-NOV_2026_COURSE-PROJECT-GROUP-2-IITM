@@ -1,0 +1,2 @@
+WebRTC experiment app: https://localhost:8080
+TLS enabled using certificate: /home/vplab/Downloads/baseline_project_bundle/certs/lan-cert.pem

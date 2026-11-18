@@ -1,0 +1,59 @@
+{
+  "study": "webrtc-gcc-baseline-randomized",
+  "version": 1,
+  "sample_interval_ms": 1000,
+  "pilot_duration_seconds": 600,
+  "warmup_seconds": 30,
+  "recovery_seconds": 30,
+  "min_condition_seconds": 20,
+  "max_condition_seconds": 70,
+  "profiles": {
+    "control": {
+      "description": "No intentional delay, jitter, packet loss, or rate cap",
+      "rate": null,
+      "delay_ms": 0,
+      "jitter_ms": 0,
+      "delay_correlation_percent": 0,
+      "loss_percent": 0
+    },
+    "delay_jitter": {
+      "description": "Moderate delay and jitter only",
+      "rate": null,
+      "delay_ms": 80,
+      "jitter_ms": 20,
+      "delay_correlation_percent": 25,
+      "loss_percent": 0
+    },
+    "loss_only": {
+      "description": "Packet loss only",
+      "rate": null,
+      "delay_ms": 0,
+      "jitter_ms": 0,
+      "delay_correlation_percent": 0,
+      "loss_percent": 1
+    },
+    "moderate_combined": {
+      "description": "Rate cap, delay, jitter, and loss",
+      "rate": "2mbit",
+      "delay_ms": 80,
+      "jitter_ms": 20,
+      "delay_correlation_percent": 25,
+      "loss_percent": 1
+    },
+    "severe_combined": {
+      "description": "Stronger rate cap, delay, jitter, and loss",
+      "rate": "800kbit",
+      "delay_ms": 150,
+      "jitter_ms": 40,
+      "delay_correlation_percent": 25,
+      "loss_percent": 3
+    }
+  },
+  "notes": [
+    "These are PILOT profiles, not validated models of a particular cellular network.",
+    "tc netem affects egress only. Bidirectional effects require deliberate shaping at both endpoints or a suitable topology.",
+    "Delay correlation models correlation between successive delay variations; it is not packet-loss correlation.",
+    "Do not apply until the selected interface is verified to carry WebRTC media packets.",
+    "Live runner is fail-closed and only accepts a disposable veth with default noqueue root; it is not yet the physical two-endpoint impairment path."
+  ]
+}

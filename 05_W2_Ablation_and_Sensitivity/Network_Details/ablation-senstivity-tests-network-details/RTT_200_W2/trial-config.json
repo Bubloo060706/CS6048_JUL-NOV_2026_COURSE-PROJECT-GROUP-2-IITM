@@ -1,0 +1,11 @@
+{
+  "trial": "RTT_200_W2",
+  "rttHighMs": 200,
+  "fpsTriggerEnabled": true,
+  "lossHighPct": 1.0,
+  "persistenceSamples": 3,
+  "reductionFactor": 0.92,
+  "recoveryStepFactor": 1.25,
+  "schedule": "experiments/controller_windows/schedules/W2_B1_schedule_12min.csv",
+  "scheduleDurationSeconds": 720
+}
